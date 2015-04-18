@@ -24,7 +24,16 @@
     };
 })();
 
+
+var map;
+var service;
+var marker;
+
+
 $(document).ready(function () {
+    $("#divLocalise").fadeOut();
+    navigator.geolocation.getCurrentPosition(initialise);
+
     var listCategory;
 
     $.getJSON("http://shareamoment.azurewebsites.net/api/Categories", function (data) {
@@ -35,6 +44,39 @@ $(document).ready(function () {
         });
     });
 
+
+    $("#addEventButton").click(function () {
+        $latitude = marker.position.k;
+        $longitude = marker.position.D;
+        $title = $("#titleEvent").val();
+        $description = $("textarea#descriptionEvent").val();
+
+        var dayMonthYear = $(".datepicker").val().split("-");
+        $date = dayMonthYear[1] + "/" + dayMonthYear[0] + "/" + dayMonthYear[2];
+
+        $hour = $(".timepicker").val();
+
+        $category = $("#selectListCategory").find(":selected").text();
+
+        $event = {
+            Name: $title,
+            BeginDate: $date+" "+$hour,
+            Description: $description,
+            Latitude: $latitude,
+            Longitude: $longitude,
+            Email: window.localStorage.getItem("mailUser"),
+            CategoryName: $category
+        }
+
+        $.ajax({
+            type: "POST",
+            url: "http://shareamoment.azurewebsites.net/api/users/setuserevent",
+            data: JSON.stringify($event),
+            dataType: "json",
+            contentType: "application/json",
+            async: false,
+        });
+    });
 
     $(".btnMenu").click(function () {
         switch ($(this).attr("id")) {
@@ -53,6 +95,23 @@ $(document).ready(function () {
     })
 
 
+    $("#fadeInLocalise").click(function () {
+        $("#divLocalise").fadeToggle("slow");
+    });
+
+    $('.datepicker').pickadate({
+        monthsFull: ['Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Août', 'Septembre', 'Octobre', 'Novembre', 'Décembre'],
+        weekdaysShort: ['Dim', 'Lun', 'Mar', 'Mer', 'Jeu', 'Ven', 'Sam'],
+        today: 'aujourd\'hui',
+        clear: 'effacer',
+        formatSubmit: 'yyyy/mm/dd',
+        firstDay: 1,
+        format: 'dd-mm-yyyy'
+    });
+
+    $('.timepicker').pickatime({
+        format: 'HH:i'
+    })
 });
 
 function toggleBurgerMenu() {
@@ -64,3 +123,29 @@ function toggleBurgerMenu() {
         cp.style.left = "0px";
     }
 }
+
+function initialise(location) {
+    //Get current position
+    var currentLocation = new google.maps.LatLng(location.coords.latitude, location.coords.longitude);
+
+    //Center the view on our position
+    var mapOptions = {
+        center: currentLocation,
+        zoom: 15
+    };
+
+    //Create map
+    map = new google.maps.Map(document.getElementById("divLocalise"),
+            mapOptions);
+
+
+    // To add the marker to the map, use the 'map' property
+    marker = new google.maps.Marker({
+        position: currentLocation,
+        map: map,
+        draggable: true,
+        title: "Drag me!"
+    });
+
+    
+};
