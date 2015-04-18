@@ -112,6 +112,7 @@
   <ItemGroup>
     <Content Include="images\burger.png" />
     <Content Include="images\header.jpg" />
+    <Content Include="mainPage.html" />
     <Content Include="merges\android\scripts\android2.3-jscompat.js" />
     <Content Include="merges\android\scripts\platformOverrides.js" />
     <Folder Include="merges\ios\" />
