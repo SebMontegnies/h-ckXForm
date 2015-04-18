@@ -18,6 +18,7 @@ html{
 	background: #f44336;
 	position: fixed;
 	top: 0;
+    z-index: 99;
 }
 .burger_nav{
 	margin:0 30px;
@@ -201,4 +202,9 @@ input[type="submit"]{
 	background: #263238;
 	transition: left 0.3s linear 0s;
     z-index: 30;
+}
+
+#divLocalise {
+    height:250px;
+    z-index: 0;
 }
