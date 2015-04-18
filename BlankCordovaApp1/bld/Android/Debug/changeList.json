@@ -243,15 +243,42 @@
     "scripts\\pickadate.js-3.5.5\\lib\\compressed\\translations\\sl_SI.js",
     "scripts\\pickadate.js-3.5.5\\lib\\translations\\it_IT.js",
     "scripts\\mainpage.js",
-    "mainpage.html"
+    "mainpage.html",
+    "images\\cross.png",
+    "images\\heart.png",
+    "images\\valid.png",
+    "images\\Boireunverre.png",
+    "images\\Soirée.png",
+    "images\\JeuxVidéo.png",
+    "images\\Cinema.png",
+    "images\\Sport.png"
   ],
-  "deletedFilesIos": [],
+  "deletedFilesIos": [
+    "images\\cofee.png",
+    "images\\drink.png",
+    "images\\game.png",
+    "images\\movie.png",
+    "images\\run.png"
+  ],
   "addedPluginsIos": [],
   "deletedPluginsIos": [],
   "changedFiles": [
-    "scripts\\mainpage.js"
+    "images\\cross.png",
+    "images\\heart.png",
+    "images\\valid.png",
+    "images\\Boireunverre.png",
+    "images\\Soirée.png",
+    "images\\JeuxVidéo.png",
+    "images\\Cinema.png",
+    "images\\Sport.png"
   ],
-  "deletedFiles": [],
+  "deletedFiles": [
+    "images\\cofee.png",
+    "images\\drink.png",
+    "images\\game.png",
+    "images\\movie.png",
+    "images\\run.png"
+  ],
   "addedPlugins": [],
   "deletedPlugins": []
 }

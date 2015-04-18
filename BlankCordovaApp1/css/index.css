@@ -23,7 +23,7 @@ html{
 	margin:0 30px;
 }
 .nav_ul{
-	display: none;
+	/*display: none;*/
 }
 .title_nav{
 	line-height: 80px;
@@ -54,7 +54,7 @@ html{
 }
 .form{
 	max-width: 800px;
-	width: 80%;
+	width: 70%;
 	margin: 0 auto;
 }
 input[type="text"]{

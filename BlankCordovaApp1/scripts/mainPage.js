@@ -95,11 +95,18 @@ function addAndRemoveEvent() {
             $description = $description.substring(0, 55)+"...";
         }
 
-        $beginDate = $(this).BeginDate;
+        $beginDate = $(this).attr("BeginDate");
+
+        var $month = $beginDate.substr(5, 2);
+        var $day = $beginDate.substr(8, 2);
+        var $hour = $beginDate.substr(11, 2);
+        var $min = $beginDate.substr(14, 2);
+
+        $beginDate = $month + "/" + $day + " " + $hour + ":" + $min;
 
 
         $event = '<section class="act">' +
-        '<img class="act_img" src="images/' + $image + '.jpg" alt="">' +
+        '<img class="act_img" src="images/' + $image + '.png" alt="">' +
         '<div class="act_content">' +
             '<h2>' + $title + '</h2>' +
             '<em class="green">' + $beginDate + '</em>' +
