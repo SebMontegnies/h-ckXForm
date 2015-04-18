@@ -26,7 +26,12 @@
     };
 })();
 
+var $latitude, $longitude;
+var $listEventFromServer;
+
 $(document).ready(function () {
+    navigator.geolocation.getCurrentPosition(initialise);
+
     refreshEvent();
 
 
@@ -57,29 +62,57 @@ function refreshEvent() {
 function addAndRemoveEvent() {
     $("#eventDiv").empty();
 
+    navigator.geolocation.getCurrentPosition(initialise);
 
-    //Do a for each from the information got from web API
-    var $image = 0;
-    switch ($image) {
-        case 0:
-            $image = "header";
+
+    $infoToMainPage = {
+        Email: window.localStorage.getItem("mailUser"),
+        Latitude: $latitude,
+        Longitude : $longitude
     }
 
-    $title = "Un foot au mic?";
-    $beginDate = "13/09/2015";
-    $description = "J'ai envie de faire du foot, contactez moi au 0498/36.79.88";
 
-    $event = '<section class="act">' +
+    $.ajax({
+        type: "POST",
+        url: "http://shareamoment.azurewebsites.net/api/events/startevents",
+        data: JSON.stringify($infoToMainPage),
+        dataType: "json",
+        contentType: "application/json",
+        async: false,
+    }).done(function (data) {
+        $listEventFromServer = data;
+
+    }).fail(function (data) {
+    })
+
+
+    $.each($listEventFromServer, function () {
+        $image = $(this).attr("CategoryName").replace(' ', '');
+        $title = $(this).attr("Name");
+        $description = $(this).attr("Description");
+
+        if ($description.lenght > 55) {
+            $description = $description.substring(0, 55)+"...";
+        }
+
+        $beginDate = $(this).BeginDate;
+
+
+        $event = '<section class="act">' +
         '<img class="act_img" src="images/' + $image + '.jpg" alt="">' +
         '<div class="act_content">' +
             '<h2>' + $title + '</h2>' +
             '<em class="green">' + $beginDate + '</em>' +
-            '<p>' + $description + '</p>' +
+            '<p>' + $description+ '</p>' +
         '</div>' +
         '<div class="line"></div>' +
     '</section>'
 
-    $("#eventDiv").append($event)
+        $("#eventDiv").append($event)
+
+    })
+
+    
 }
 
 function toggleBurgerMenu() {
@@ -91,3 +124,10 @@ function toggleBurgerMenu() {
         cp.style.left = "0px";
     }
 }
+
+function initialise(location) {
+    //Get current position;
+    $latitude = location.coords.latitude;
+    $longitude = location.coords.longitude;
+    console.log(location);
+};

@@ -76,6 +76,8 @@ $(document).ready(function () {
             contentType: "application/json",
             async: false,
         });
+
+        document.location.href = "mainPage.html";
     });
 
     $(".btnMenu").click(function () {

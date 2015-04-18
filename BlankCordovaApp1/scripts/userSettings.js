@@ -7,14 +7,13 @@ $(document).ready(function () {
 
     var getUserCategoriesConnection = "http://shareamoment.azurewebsites.net/api/Users/getUserCategories/";
     
-    var mailUser = window.localStorage.getItem("mailUser");
+    var $mailUser = window.localStorage.getItem("mailUser");
 
         //var $email = $("#emailIndex").val();
 
-        var $email = "codu@codu.be";
 
         var $jsonFormat = {
-            Email: $email,
+            Email: $mailUser,
         };
 
 
