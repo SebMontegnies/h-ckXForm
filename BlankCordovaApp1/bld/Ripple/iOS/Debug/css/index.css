@@ -23,8 +23,8 @@ html{
 	margin:0 30px;
 }
 .nav_ul{
-	display: none;
 }
+	
 .title_nav{
 	line-height: 80px;
 	font-size: 22px;
@@ -266,7 +266,7 @@ input[type="submit"]{
 }
 .profil_h2{
 
-	margin-top: 24px;
+	margin-top:104px;
 	margin-left: 24px;
 	font-size: 20px;
 	color: #757575;
@@ -289,10 +289,22 @@ input[type="submit"]{
 .check{
 	background: #3b9953 url(../images/v.png) right no-repeat;
 	color: white;
+    list-style-type: none;
+    height: 48px;
+	display: block;
+	line-height: 48px;
+	border-bottom: 1px solid #cccccc;
+	padding-left: 24px; 
 }
 .no_check{
 	background: #eeeeee;
 	color: #bdbdbd;
+    list-style-type: none;
+    height: 48px;
+	display: block;
+	line-height: 48px;
+	border-bottom: 1px solid #cccccc;
+	padding-left: 24px; 
 }
 .profil_form{
 	padding: 0 24px;
