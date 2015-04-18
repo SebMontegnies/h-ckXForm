@@ -62,7 +62,7 @@ $(document).ready(function () {
                     return false;
                 case '1':
                     //Success, the user is already in the database
-                    alert("Already in the database");
+                    document.location.href = "mainPage.html";
                     break;
                 case '2':
                     //THe user is not in the database, need to create his account
