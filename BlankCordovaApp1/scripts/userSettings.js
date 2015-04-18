@@ -1,63 +1,104 @@
 ﻿/// <reference group="Dedicated Worker" />
 
-onmessage = function (event) {
-
-}
 
 $(document).ready(function () {
 
     var data;
 
-    //Récupération de toutes les catégories.
-    $.getJSON("http://shareamoment.azurewebsites.net/api/Categories", function (data) {
-
-        var jsonData = JSON.parse(data);
-        var ul = document.getElementById("activitiesList");
-
-        $.each(jsonData, function (idx, obj) {
-
-
-            var li = document.createElement("li");
-            li.appendChild(document.createTextNode(obj.Name));
-
-
-
-            li.setAttribute("id", obj.CategoryId);
-            li.setAttribute("class", "isNotSelected");
-
-
-
-            ul.appendChild(li);
-            
-        });
-
-        $('li').click(function () {
-            
-            //if ($(this).css().val)
-            $(this).setAttribute("class", "isNotSelected");
-            alert($(this).css("background-color"));
-            if ($(this).css("background-color") == "rgb(63,246,34)")
-            {
-                alert("wesh");
-            }
-                
-
-        })
-    });
-
+    var getUserCategoriesConnection = "http://shareamoment.azurewebsites.net/api/Users/getUserCategories/";
     
-       
+    var mailUser = window.localStorage.getItem("mailUser");
+
+        //var $email = $("#emailIndex").val();
+
+        var $email = "codu@codu.be";
+
+        var $jsonFormat = {
+            Email: $email,
+        };
+
+
+        $.ajax({
+            type: "POST",
+            url: "http://shareamoment.azurewebsites.net/api/Users/getUserCategories/",
+            data: JSON.stringify($jsonFormat),
+            dataType: "json",
+            contentType: "application/json",
+            async: false,
+        }).done(function (data) {
+
         
-   
+            //var jsonData = JSON.parse(data);
+            var ul = document.getElementById("activitiesList");
 
-    var $email = $("#emailIndex").val();
-    var $password = $("#passwordIndex").val();
+            $.each(data, function (idx, obj) {
 
-    var $jsonFormat = {
-        Email: $email,
-        Password: $password
-    };
 
+                var li = document.createElement("li");
+                li.appendChild(document.createTextNode(obj.Name));
+
+           
+
+
+
+                li.setAttribute("id", obj.CategoryId);
+            
+
+                if (obj.Selected) {
+                    li.setAttribute("class", "isSelected");
+                }
+                else {
+                    li.setAttribute("class", "isNotSelected");
+                }
+
+                ul.appendChild(li);
+            
+            });
+
+            $('li').click(function () {
+
+                if ((this).getAttribute("class") == "isNotSelected")
+                {
+                    (this).setAttribute("class", "isSelected");
+
+                    
+                }
+                else
+                {
+                    (this).setAttribute("class", "isNotSelected");
+                }
+
+
+                var $email = "codu@codu.be";
+                var $activityID = $(this).attr('id');
+
+
+                var $jsonFormat = { UserEmail: $email, idCategory: $activityID };
+
+
+
+                $.ajax({
+                    type: "POST",
+                    url: "http://shareamoment.azurewebsites.net/api/Users/Updateusercategory",
+                    data: JSON.stringify($jsonFormat),
+                    dataType: "json",
+                    contentType: "application/json",
+                    async: false,
+                }).done(function (data) {
+
+                    alert("OK ");
+
+                }).fail(function (data) {
+                    Success = true;
+                })
+
+
+
+            });
+        }).fail(function (data) {
+            Success = true;
+        })
 
     });
+
 
