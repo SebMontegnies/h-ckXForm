@@ -110,20 +110,16 @@
     <VisualStudioVersion>12.0</VisualStudioVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="activite.html" />
-    <Content Include="add.html" />
-    <Content Include="BlankCordovaApp1.v12.suo" />
     <Content Include="css\index.css" />
     <Content Include="images\burger.png" />
+    <Content Include="images\etienne.jpg" />
     <Content Include="images\header.jpg" />
+    <Content Include="images\line.png" />
     <Content Include="images\load.png" />
     <Content Include="mainPage.html" />
     <Content Include="merges\android\scripts\android2.3-jscompat.js" />
     <Content Include="merges\android\scripts\platformOverrides.js" />
-    <Content Include="Project_Readme.html" />
     <Content Include="scripts\userSettings.js" />
-    <Content Include="ShareAMoment.sln" />
-    <Content Include="ShareAMoment.v12.suo" />
     <Content Include="userSettings.html" />
     <Folder Include="merges\ios\" />
     <Content Include="merges\windows\scripts\platformOverrides.js" />

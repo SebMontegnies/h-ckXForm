@@ -254,9 +254,3 @@ input[type="submit"]{
 	color: #757575;
 	font-size: 20px;
 }
-.isSelected{
-   background-color : #34f916;
-}
-.isNotSelected{
-    background-color : #FFFAFA;
-}

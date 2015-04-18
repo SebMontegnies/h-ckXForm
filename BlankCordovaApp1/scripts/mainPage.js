@@ -28,17 +28,63 @@
 
 $(document).ready(function () {
     refreshEvent();
+
+    alert(window.localStorage.getItem("mailUser"));
+
+    $(".btnMenu").click(function () {
+        switch ($(this).attr("id")) {
+            case "btnMenuParametre":
+                document.location.href = "userSettings.html";
+                break;
+            case "btnMenuProfil":
+                alert("mon profil");
+                break;
+            case "btnMenuAccueil":
+                document.location.href = "mainPage.html";
+            default:
+                alert("not set yet");
+        }
+    })
 });
 
 function refreshEvent() {
+    addAndRemoveEvent();
     setInterval(function () {
-        alert("hello");
+        addAndRemoveEvent();
     }, 300000)
 };
 
+function addAndRemoveEvent() {
+    $("#eventDiv").empty();
+
+
+    //Do a for each from the information got from web API
+    var $image = 0;
+    switch ($image) {
+        case 0:
+            $image = "header";
+    }
+
+    $title = "Un foot au mic?";
+    $beginDate = "13/09/2015";
+    $description = "J'ai envie de faire du foot, contactez moi au 0498/36.79.88";
+
+    $event = '<section class="act">' +
+        '<img class="act_img" src="images/' + $image + '.jpg" alt="">' +
+        '<div class="act_content">' +
+            '<h2>' + $title + '</h2>' +
+            '<em class="green">' + $beginDate + '</em>' +
+            '<p>' + $description + '</p>' +
+        '</div>' +
+        '<div class="line"></div>' +
+    '</section>'
+
+    $("#eventDiv").append($event)
+}
+
 function toggleBurgerMenu() {
     var cp = document.getElementById("burgerMenu");
-    cp.style.height = window.innerHeight - 60 + "px";
+    cp.style.height = window.innerHeight - 64 + "px";
     if (cp.style.left == "0px") {
         cp.style.left = "-260px";
     } else {

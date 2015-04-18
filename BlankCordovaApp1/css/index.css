@@ -242,7 +242,7 @@ input[type="submit"]{
 	margin-bottom: 20px;
 	display: block;
 }
-.add_form input[type="submit"]{
+.add_form input[type="submit"], .profil_form input[type="submit"]{
 	height: 48px;
 	background: #3b9953;
 	border: 1px #ccc solid;
@@ -254,9 +254,48 @@ input[type="submit"]{
 	color: #757575;
 	font-size: 20px;
 }
-.isSelected{
-   background-color : #34f916;
+
+/*Preference*/
+.profil_header{
+	margin-top: 100px !important;
 }
-.isNotSelected{
-    background-color : #FFFAFA;
+.profil_h2{
+
+	margin-top: 24px;
+	margin-left: 24px;
+	font-size: 20px;
+	color: #757575;
+	font-weight: 500;
+
+}
+.profil_activity{
+	height: 240px;
+	overflow: scroll;
+	margin:24px;
+	border: 1px solid #ccc;
+}
+.profil_activity span{
+	height: 48px;
+	display: block;
+	line-height: 48px;
+	border-bottom: 1px solid #cccccc;
+	padding-left: 24px;
+}
+.check{
+	background: #3b9953 url(../images/v.png) right no-repeat;
+	color: white;
+}
+.no_check{
+	background: #eeeeee;
+	color: #bdbdbd;
+}
+.profil_form{
+	padding: 0 24px;
+}
+.profil_input{
+	height: 48px !important;
+	background: #ffffff !important;
+	border: 1px #ccc solid !important;
+	padding: 0 24px !important;
+	margin-top: 20px !important;
 }
