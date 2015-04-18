@@ -33,7 +33,7 @@ html{
 }
 .header{
 	height: 385px;
-	background: url(../jpg/header.jpg);
+	background: url(../images/header.jpg);
 	line-height: 385px;
 	font-style: italic;
 	font-weight: 400;
@@ -83,7 +83,7 @@ input[type="text"]{
    color:    #424242;
 }
 
-input[type="submit"]{
+input[type="button"]{
 	height: 48px;
 	width: 100%;
 	color: white;
@@ -96,7 +96,7 @@ input[type="submit"]{
 
 }
 
-input[type="submit"]:last-child{
+input[type="submit"]{
 	background: #3b5999;
 	margin: 15px 0px 40px 0px;
 

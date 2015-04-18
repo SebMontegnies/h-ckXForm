@@ -28,8 +28,15 @@ function wrongPassword() {
     $("#wrongPasswordIndex").removeAttr("hidden");
 };
 
+function hideWrongPassword() {
+    $("#wrongPasswordIndex").attr("hidden", "hidden");
+};
+
 $(document).ready(function () {
     $("#signInBtn").click(function () {
+        hideWrongPassword();
+
+
         var $email = $("#emailIndex").val();
         var $password = $("#passwordIndex").val();
 
@@ -51,7 +58,6 @@ $(document).ready(function () {
             switch (data) {
                 case '0':
                     //Failed to connect, user already in the database
-                    alert("Wrong password");
                     wrongPassword();
                     return false;
                 case '1':
