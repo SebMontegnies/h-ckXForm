@@ -33,9 +33,9 @@ function hideWrongPassword() {
 };
 
 $(document).ready(function () {
+    
     $("#signInBtn").click(function () {
         hideWrongPassword();
-
 
         var $email = $("#emailIndex").val();
         var $password = $("#passwordIndex").val();
@@ -62,16 +62,21 @@ $(document).ready(function () {
                     return false;
                 case '1':
                     //Success, the user is already in the database
+
+                    //Set the localstorage to register the email
+
+                    window.localStorage.setItem("mailUser", $email);
+
                     document.location.href = "mainPage.html";
                     break;
                 case '2':
                     //THe user is not in the database, need to create his account
-                    alert("Not in the database yet");
                     break;
                 default:
                     //TODO show an error message
             }
         }).fail(function (data) {
+            alert("error");
             Success = true;
         })
 
