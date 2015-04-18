@@ -304,3 +304,52 @@ input[type="submit"]{
 	padding: 0 24px !important;
 	margin-top: 20px !important;
 }
+
+/*CHOICE*/
+
+
+
+.icon{
+	width: 322px;
+	height: 322px;
+	border-radius: 161px;
+	border: 1px solid #ccc;
+	background: #FFF;
+	margin: 0 auto;
+	margin-top: 130px;
+}
+.icon_li{
+	clear: both;
+}
+.icon_fixe{
+	margin-top: 100px;
+}
+.icon_fixe ul{
+	margin:0 auto;
+	width: 240px;
+}
+.icon_fixe li{
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-radius: 5px;
+	background: #757575;
+	margin: 10px;
+}
+
+.heart, .cross{
+	height: 94px;
+	width: 94px;
+	margin: 24px;
+	text-indent: -900000px;
+	cursor: pointer;
+}
+
+.heart{
+	background: url(../images/heart.png) no-repeat;
+	float: left;
+}
+.cross{
+	background: url(../images/cross.png) no-repeat;
+	float: right;
+}
