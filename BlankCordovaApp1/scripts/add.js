@@ -13,7 +13,6 @@
         document.addEventListener('resume', onResume.bind(this), false);
 
         // TODO: Cordova has been loaded. Perform any initialization that requires Cordova here.
-        refreshEvent();
     };
 
     function onPause() {
@@ -22,12 +21,19 @@
 
     function onResume() {
         // TODO: This application has been reactivated. Restore application state here.
-        refreshEvent();
     };
 })();
 
 $(document).ready(function () {
-    refreshEvent();
+    var listCategory;
+
+    $.getJSON("http://shareamoment.azurewebsites.net/api/Categories", function (data) {
+        var jsonData = JSON.parse(data);
+
+        $.each(jsonData, function (idx, obj) {
+            $("#selectListCategory").append("<option value='" + obj.CategoryId + "'>"+obj.Name+"</option>")
+        });
+    });
 
 
     $(".btnMenu").click(function () {
@@ -45,42 +51,9 @@ $(document).ready(function () {
                 alert("not set yet");
         }
     })
+
+
 });
-
-function refreshEvent() {
-    addAndRemoveEvent();
-    setInterval(function () {
-        addAndRemoveEvent();
-    }, 300000)
-};
-
-function addAndRemoveEvent() {
-    $("#eventDiv").empty();
-
-
-    //Do a for each from the information got from web API
-    var $image = 0;
-    switch ($image) {
-        case 0:
-            $image = "header";
-    }
-
-    $title = "Un foot au mic?";
-    $beginDate = "13/09/2015";
-    $description = "J'ai envie de faire du foot, contactez moi au 0498/36.79.88";
-
-    $event = '<section class="act">' +
-        '<img class="act_img" src="images/' + $image + '.jpg" alt="">' +
-        '<div class="act_content">' +
-            '<h2>' + $title + '</h2>' +
-            '<em class="green">' + $beginDate + '</em>' +
-            '<p>' + $description + '</p>' +
-        '</div>' +
-        '<div class="line"></div>' +
-    '</section>'
-
-    $("#eventDiv").append($event)
-}
 
 function toggleBurgerMenu() {
     var cp = document.getElementById("burgerMenu");

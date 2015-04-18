@@ -98,7 +98,9 @@
     "images\\line.png",
     "scripts\\userSettings.js",
     "userSettings.html",
-    "css\\index.css"
+    "css\\index.css",
+    "add.html",
+    "scripts\\add.js"
   ],
   "deletedFilesIos": [
     "scripts\\jquery-1.11.2.min.js",
@@ -106,15 +108,17 @@
     "scripts\\index.js",
     "css\\mainPage.css",
     "css\\login.css",
-    "scripts\\login - Copy.js"
+    "scripts\\login - Copy.js",
+    "scripts\\mainPage - Copy.js"
   ],
   "addedPluginsIos": [],
   "deletedPluginsIos": [],
   "changedFiles": [
+    "add.html",
+    "scripts\\add.js",
     "css\\index.css",
-    "login.html",
-    "config.xml",
-    "scripts\\login.js"
+    "scripts\\mainPage.js",
+    "mainPage.html"
   ],
   "deletedFiles": [],
   "addedPlugins": [],
