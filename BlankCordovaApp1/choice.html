@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -21,21 +21,27 @@
     <div class="main">
         <nav class="main_nav">
             <img class="burger_nav" src="images/burger.png" alt="" id="burgerMenuButton" onclick="toggleBurgerMenu()">
-            <span class=" title_nav">Activité</span>
+            <span class=" title_nav">Choice</span>
             <ul class="nav_ul" id="burgerMenu">
-                <li><a href="#" class="btnMenu" id="btnMenuParametre">Parametre</a></li>
-                <li><a href="#" class="btnMenu" id="btnMenuProfil">Proposer une activité</a></li>
-                <li><a href="#" class="btnMenu" id="btnMenuAccueil">Accueil</a></li>
+                <li><button href="#" class="btnMenu" id="btnMenuParametre">Parametre</button></li>
+                <li><button href="#" class="btnMenu" id="btnMenuProfil">Proposer une activité</button></li>
+                <li><button href="#" class="btnMenu" id="btnMenuAccueil">Accueil</button></li>
             </ul>
         </nav>
-        <header class="header_activity"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dignissim, ligula id mollis ultricies, tortor lectus dictum ligula, ut vulputate felis diam ut dui.</p></header>
-        
-        <div id="eventDiv">
-
-
+        <div class="icon"></div>
+        <div class="icon_fixe">
+            <div class="heart">like</div>
+            <div class="cross">dislike</div>
+            <div class="icon_li">
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
         </div>
-        <div class="load"><img src="images/load.png" alt=""></div>
-
     </div>
     <script src="cordova.js"></script>
     <script src="scripts/platformOverrides.js"></script>
@@ -43,12 +49,6 @@
     <script src="scripts/Jquery/jquery-1.11.2.min.js"></script>
     <script src="scripts/Jquery/jquery-ui-1.11.4/jquery-ui.min.js"></script>
 
-    <script src="scripts/mainPage.js"></script>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-    <script type="text/javascript"
-            src="https://maps.googleapis.com/maps/api/js?libraries=places&sensor=true">
-    </script>
-
+    <!-- <script src="scripts/mainPage.js"></script> -->
 </body>
 </html>
