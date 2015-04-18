@@ -23,7 +23,7 @@ html{
 	margin:0 30px;
 }
 .nav_ul{
-	display: none;
+	
 }
 .title_nav{
 	line-height: 80px;
@@ -40,7 +40,7 @@ html{
 	text-align: center;
 	font-size: 22px;
 	color: white;
-	margin-top: 80px;
+	margin-top: 85px;
 	margin-bottom: 40px;
 }
 .header_activity{
@@ -99,13 +99,6 @@ input[type="button"]{
 input[type="submit"]{
 	background: #3b5999;
 	margin: 15px 0px 40px 0px;
-	height: 48px;
-	width: 100%;
-	color: white;
-	font-family: 'Roboto', sans-serif;
-	font-size: 20px;
-	display: block;
-	border:none;
 
 }
 .act{
@@ -126,7 +119,7 @@ input[type="submit"]{
 }
 
 .act_content{
-	width: 80%;
+	width: 70%;
 	height: 120px;
 	float: right;
 	padding: 20px 24px;
@@ -171,8 +164,28 @@ input[type="submit"]{
 	position: relative;
 	top: 20px;
 	left: 50px;
-	background: url(../images/line.png);
+	background: url(../jpg/line.png);
 }
 .line_none{
 	display: none;
+}
+
+
+#burgerMenuButton > div{
+	width: 20px;
+	height: 4px;
+	background: #333;
+	margin: 3px 0px;
+	border-radius: 4px;
+	transition: background 0.3s linear 0s;
+}
+#burgerMenu{
+	position: fixed;
+	left: -260px;
+	top: 60px;
+	width: 260px;
+	height: 0px;
+	background: #333;
+	transition: left 0.3s linear 0s;
+    z-index: 100;
 }

@@ -90,18 +90,24 @@
     "scripts\\Jquery\\jquery-ui-1.11.4\\jquery-ui.min.css",
     "login.html",
     "scripts\\login.js",
-    "css\\login.css"
+    "mainPage.html",
+    "css\\main.css",
+    "images\\load.png",
+    "scripts\\mainPage.js"
   ],
   "deletedFilesIos": [
     "scripts\\jquery-1.11.2.min.js",
     "index.html",
     "scripts\\index.js",
-    "css\\index.css"
+    "css\\mainPage.css",
+    "css\\login.css",
+    "css\\index.css",
+    "scripts\\login - Copy.js"
   ],
   "addedPluginsIos": [],
   "deletedPluginsIos": [],
   "changedFiles": [
-    "login.html"
+    "scripts\\mainPage.js"
   ],
   "deletedFiles": [],
   "addedPlugins": [],
