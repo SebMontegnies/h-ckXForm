@@ -29,7 +29,6 @@
 $(document).ready(function () {
     refreshEvent();
 
-    alert(window.localStorage.getItem("mailUser"));
 
     $(".btnMenu").click(function () {
         switch ($(this).attr("id")) {
@@ -37,10 +36,11 @@ $(document).ready(function () {
                 document.location.href = "userSettings.html";
                 break;
             case "btnMenuProfil":
-                alert("mon profil");
+                document.location.href = "add.html";
                 break;
             case "btnMenuAccueil":
                 document.location.href = "mainPage.html";
+                break;
             default:
                 alert("not set yet");
         }

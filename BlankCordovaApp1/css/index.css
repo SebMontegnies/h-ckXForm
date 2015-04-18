@@ -23,7 +23,6 @@ html{
 	margin:0 30px;
 }
 .nav_ul{
-	display: none;
 }
 .title_nav{
 	line-height: 80px;
@@ -304,6 +303,7 @@ input[type="submit"]{
 	padding: 0 24px !important;
 	margin-top: 20px !important;
 }
+<<<<<<< HEAD
 
 /*CHOICE*/
 
@@ -352,4 +352,11 @@ input[type="submit"]{
 .cross{
 	background: url(../images/cross.png) no-repeat;
 	float: right;
+=======
+.isSelected{
+    background-color : #08f600;
+}
+.isNotSelected{
+    background-color : #FFFAFA;
+>>>>>>> 1bbe6d7d84f28032f1bb4d035c298305969fefbc
 }

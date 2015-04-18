@@ -18,12 +18,25 @@ html{
 	background: #f44336;
 	position: fixed;
 	top: 0;
+    z-index: 99;
 }
 .burger_nav{
 	margin:0 30px;
 }
 .nav_ul{
-	
+	padding-left: 0px;
+}
+.nav_ul a{
+	color: white;
+	text-decoration: none;
+	padding: 20px 0px 20px 20px;
+
+}
+.nav_ul li{
+		list-style: none;
+		padding: 20px 0px 20px 0px;
+		border-bottom: 1px solid #1c242d;
+
 }
 .title_nav{
 	line-height: 80px;
@@ -122,7 +135,7 @@ input[type="submit"]{
 	width: 70%;
 	height: 120px;
 	float: right;
-	padding: 20px 24px;
+	padding: 20px 24px 20px 0px;
 	border-bottom: 1px #ccc solid;
 }
 .act_content_borderTop{
@@ -162,9 +175,10 @@ input[type="submit"]{
 	width: 9px;
 	height: 10px; 
 	position: relative;
+	z-index: 100;
 	top: 20px;
 	left: 50px;
-	background: url(../jpg/line.png);
+	background: url(../images/line.png);
 }
 .line_none{
 	display: none;
@@ -174,7 +188,7 @@ input[type="submit"]{
 #burgerMenuButton > div{
 	width: 20px;
 	height: 4px;
-	background: #333;
+	background: #263238;
 	margin: 3px 0px;
 	border-radius: 4px;
 	transition: background 0.3s linear 0s;
@@ -182,10 +196,15 @@ input[type="submit"]{
 #burgerMenu{
 	position: fixed;
 	left: -260px;
-	top: 60px;
+	top: 64px;
 	width: 260px;
 	height: 0px;
-	background: #333;
+	background: #263238;
 	transition: left 0.3s linear 0s;
-    z-index: 100;
+    z-index: 30;
+}
+
+#divLocalise {
+    height:250px;
+    z-index: 0;
 }
