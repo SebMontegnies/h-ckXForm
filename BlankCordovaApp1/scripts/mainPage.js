@@ -38,7 +38,7 @@ function refreshEvent() {
 
 function toggleBurgerMenu() {
     var cp = document.getElementById("burgerMenu");
-    cp.style.height = window.innerHeight - 60 + "px";
+    cp.style.height = window.innerHeight - 64 + "px";
     if (cp.style.left == "0px") {
         cp.style.left = "-260px";
     } else {
