@@ -112,8 +112,8 @@
   <ItemGroup>
     <Content Include="images\burger.png" />
     <Content Include="images\header.jpg" />
-    <Content Include="scripts\userSettings.js" />
-    <Content Include="userSettings.html" />
+    <Content Include="images\load.png" />
+    <Content Include="mainPage.html" />
     <Content Include="merges\android\scripts\android2.3-jscompat.js" />
     <Content Include="merges\android\scripts\platformOverrides.js" />
     <Folder Include="merges\ios\" />
@@ -134,6 +134,7 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="login.html" />
+    <Content Include="scripts\mainPage.js" />
     <Content Include="scripts\login.js" />
     <Content Include="scripts\Jquery\jquery-1.11.2.min.js" />
     <Content Include="scripts\Jquery\jquery-ui-1.11.4\external\jquery\jquery.js" />
@@ -161,7 +162,7 @@
     <Content Include="scripts\Jquery\jquery-ui-1.11.4\jquery-ui.theme.css" />
     <Content Include="scripts\Jquery\jquery-ui-1.11.4\jquery-ui.theme.min.css" />
     <Content Include="scripts\platformOverrides.js" />
-    <Content Include="css\login.css" />
+    <Content Include="css\main.css" />
     <Content Include="res\icons\android\icon-36-ldpi.png" />
     <Content Include="res\icons\android\icon-48-mdpi.png" />
     <Content Include="res\icons\android\icon-72-hdpi.png" />
