@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="main">
-        <nav class="main_nav">
+        <!--<nav class="main_nav">
             <img class="burger_nav" src="images/burger.png" alt="">
             <span class="title_nav">Sign</span>
             <ul class="nav_ul">
@@ -18,24 +18,14 @@
                 <li><a href="#">Proposer une activité</a></li>
                 <li><a href="#">Activité</a></li>
             </ul>
-        </nav>
+        </nav>-->
 
 
         <form class="form" action="">
             <input type="text" placeholder="Email" id="emailIndex">
             <input type="text" placeholder="Mot de passe" id="passwordIndex" />
-            
-            
-            <ul title="Activités" id="activitiesList">
-                <li>(X)html</li>
-                <li>CSS</li>
-                <li>Javascript</li>
-            </ul>
-
-
-
-
-            <input type="button" id="saveSettings" value="Sauvegarder" onclick="inputActivities()">
+            <ul title="Activités" id="activitiesList"></ul>
+            <input type="button" id="saveSettings" value="Sauvegarder" >
         </form>
 
     </div>
@@ -48,14 +38,9 @@
     <script src="scripts/Jquery/jquery-1.11.2.min.js"></script>
     <script src="scripts/Jquery/jquery-ui-1.11.4/jquery-ui.min.js"></script>
 
-    <script src="scripts/index.js">
+    <script src="scripts/userSettings.js">
 
-        function inputActivities() {
-            var ul = document.getElementById("activitiesList");
-            var li = document.createElement("li");
-            li.appendChild(document.createTextNode("Four"));
-            ul.appendChild(li);
-        }
+        
 
 
     </script>
