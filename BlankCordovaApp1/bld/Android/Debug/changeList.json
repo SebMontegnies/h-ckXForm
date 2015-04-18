@@ -1,12 +1,16 @@
 {
   "changedFilesIos": [
-    "mainPage.html"
+    "config.xml",
+    "userSettings.html"
   ],
-  "deletedFilesIos": [],
+  "deletedFilesIos": [
+    "mainPage.html",
+    "settings.html"
+  ],
   "addedPluginsIos": [],
   "deletedPluginsIos": [],
   "changedFiles": [
-    "mainPage.html"
+    "userSettings.html"
   ],
   "deletedFiles": [],
   "addedPlugins": [],
