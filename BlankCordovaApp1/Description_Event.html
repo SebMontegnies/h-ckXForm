@@ -28,14 +28,15 @@
                 <li><button href="#" class="btnMenu" id="btnMenuAccueil">Accueil</button></li>
             </ul>
         </nav>
-    <header class="header_desc"></header>
-    <div class="desc_content">
-        <h2 class="desc_h2">Titre</h2>
-        <h3 class="desc_cat">Categorie</h3>
-        <div class="desc_date"><span class="desc-date">15 mars</span><span class="desc-heure green">12h50</span></div>
-        <p class="desc_lieu">lieu</p>
-        <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pharetra, purus non consequat sodales, velit odio semper massa, eget ultricies dolor ligula at ligula. Fusce ornare mollis enim vel finibus. Sed aliquet ex vel tellus rhoncus, eu finibus lectus mattis. Quisque pretium bibendum varius. Cras eros justo, mattis laoreet mi eu, pellentesque mollis arcu. Vestibulum et sapien et diam gravida luctus.</p>
-    </div>
+        <header class="header_desc"></header>
+        <div class="desc_content">
+            <h2 class="desc_h2">Titre</h2>
+            <h3 class="desc_cat">Categorie</h3>
+            <div class="desc_date"><span class="desc-date">15 mars</span><span class="desc-heure green">12h50</span></div>
+            <p class="desc_lieu">lieu</p>
+            <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pharetra, purus non consequat sodales, velit odio semper massa, eget ultricies dolor ligula at ligula. Fusce ornare mollis enim vel finibus. Sed aliquet ex vel tellus rhoncus, eu finibus lectus mattis. Quisque pretium bibendum varius. Cras eros justo, mattis laoreet mi eu, pellentesque mollis arcu. Vestibulum et sapien et diam gravida luctus.</p>
+        </div>
+        <div id="map-canvas"></div>
     </div>
     <!-- Cordova reference, this is added to your app when it's built. -->
     <script src="cordova.js"></script>
@@ -44,13 +45,14 @@
 
     <script src="scripts/Jquery/jquery-1.11.2.min.js"></script>
     <script src="scripts/Jquery/jquery-ui-1.11.4/jquery-ui.min.js"></script>
-
-    <script src="scripts/description.js"></script>
-
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
     <script type="text/javascript"
             src="https://maps.googleapis.com/maps/api/js?libraries=places&sensor=true">
     </script>
+    <script src="scripts/description.js"></script>
+
+    
 
     <script src="scripts/pickadate.js-3.5.5/lib/picker.js"></script>
     <script src="scripts/pickadate.js-3.5.5/lib/picker.date.js"></script>
