@@ -79,7 +79,6 @@ $(document).ready(function () {
                     //TODO show an error message
             }
         }).fail(function (data) {
-            alert("error");
             Success = true;
         })
 

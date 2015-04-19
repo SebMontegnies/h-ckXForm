@@ -206,7 +206,7 @@ input[type="submit"]{
 	height: 0px;
 	background: #263238;
 	transition: left 0.3s linear 0s;
-    z-index: 30;
+    z-index: 1000;
 }
 
 #divLocalise {

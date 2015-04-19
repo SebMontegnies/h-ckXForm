@@ -17,11 +17,11 @@ $(document).ready(function () {
     var index = 0;
     var isFinished = false;
 
-    images.push("images/game.png");
-    images.push("images/drink.png");
-    images.push("images/run.png");
-    images.push("images/cofee.png");
-    images.push("images/movie.png");
+    images.push("/images/JeuxVidéo.png");
+    images.push("/images/Soirée.png");
+    images.push("/images/Sport.png");
+    images.push("/images/Boireunverre.png");
+    images.push("/images/Cinema.png");
 
     $.getJSON("http://shareamoment.azurewebsites.net/api/Categories", function (data) {
 
@@ -37,7 +37,7 @@ $(document).ready(function () {
     document.getElementById("background").style.backgroundImage = "url('" + images[index] + "')";
 
     $("#buttonYes").click(function () {
-       
+
         var $activityID = idCategories[index];
 
         if (isFinished) {
@@ -61,7 +61,7 @@ $(document).ready(function () {
 
         if (index < allCategories.length)
         {
-            index = index + 1;
+            index = index + 1;            
             document.getElementById("background").style.backgroundImage = "url('" + images[index] + "')";
         }
 
