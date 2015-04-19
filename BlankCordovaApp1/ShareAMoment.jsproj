@@ -112,6 +112,7 @@
   <ItemGroup>
     <Content Include="activite.html" />
     <Content Include="add.html" />
+    <Content Include="BlankCordovaApp1.v12.suo" />
     <Content Include="categoriesSelection.html" />
     <Content Include="choice.html" />
     <Content Include="css\index.css" />
