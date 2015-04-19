@@ -33,10 +33,12 @@ $(document).ready(function () {
 
     refreshEvent();
 
+    var $email = window.localStorage.getItem("mailUser");
 
     $(".btnMenu").click(function () {
         switch ($(this).attr("id")) {
             case "btnMenuParametre":
+                window.localStorage.setItem("mailUser", $email);
                 document.location.href = "userSettings.html";
                 break;
             case "btnMenuProfil":

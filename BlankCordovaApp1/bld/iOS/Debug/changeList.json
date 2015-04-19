@@ -10,7 +10,10 @@
     "images\\drink.png",
     "images\\game.png",
     "images\\run.png",
-    "images\\movie.png"
+    "images\\movie.png",
+    "scripts\\userSettings.js",
+    "scripts\\mainPage.js",
+    "scripts\\categoriesSelection.js"
   ],
   "deletedFilesIos": [],
   "addedPluginsIos": [],

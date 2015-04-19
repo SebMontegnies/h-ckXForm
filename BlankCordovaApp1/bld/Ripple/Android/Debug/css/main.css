@@ -13,7 +13,7 @@ html{
 .main_nav{
 	height: 80px;
 	width: 100%;
-	border-bottom: 5px solid #b71c1c;
+	border-bottom: 2px solid #b71c1c;
 	color: white;
 	background: #f44336;
 	position: fixed;
@@ -44,16 +44,20 @@ html{
 	font-weight: 400;
 
 }
+.sign{
+	margin-left: 24px;
+}
 .header{
-	height: 385px;
-	background: url(../images/header.jpg);
-	line-height: 385px;
+	height: 250px;
+	background: url(../images/header.jpg) no-repeat;
+	background-size: cover;
+	line-height: 250px;
 	font-style: italic;
 	font-weight: 400;
 	text-align: center;
 	font-size: 22px;
 	color: white;
-	margin-top: 85px;
+	margin-top: 80px;
 	margin-bottom: 40px;
 }
 .header_activity{
@@ -101,7 +105,7 @@ input[type="button"]{
 	width: 100%;
 	color: white;
 	font-family: 'Roboto', sans-serif;
-	font-size: 20px;
+	font-size: 16px;
 	display: block;
 	background: #3b9953;
 	border:none;
@@ -111,6 +115,7 @@ input[type="button"]{
 
 input[type="submit"]{
 	background: #3b5999;
+	font-size: 16px;
 	margin: 15px 0px 40px 0px;
 
 }

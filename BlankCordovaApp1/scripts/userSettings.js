@@ -8,6 +8,7 @@ $(document).ready(function () {
     $(".btnMenu").click(function () {
         switch ($(this).attr("id")) {
             case "btnMenuParametre":
+                window.localStorage.setItem("mailUser", $email);
                 document.location.href = "userSettings.html";
                 break;
             case "btnMenuProfil":
@@ -34,10 +35,6 @@ $(document).ready(function () {
 
     var getUserCategoriesConnection = "http://shareamoment.azurewebsites.net/api/Users/getUserCategories/";
     
-    var $mailUser = window.localStorage.getItem("mailUser");
-
-        //var $email = $("#emailIndex").val();
-
     var $email = window.localStorage.getItem("mailUser");
 
         var $jsonFormat = {
@@ -59,16 +56,13 @@ $(document).ready(function () {
                 var li = document.createElement("li");
                 li.appendChild(document.createTextNode(obj.Name));
                 li.setAttribute("id", obj.CategoryId);
-
+            
                 if (obj.Selected) {
                     li.setAttribute("class", "liSettingsEvent check");
                 }
                 else {
                     li.setAttribute("class", "liSettingsEvent no_check");
                 }
-
-               
-
                 ul.appendChild(li);
             
             });

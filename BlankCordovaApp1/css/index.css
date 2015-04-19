@@ -325,7 +325,7 @@ input[type="submit"]{
 	width: 322px;
 	height: 322px;
 	border-radius: 161px;
-	/*background:url(../images/game.png) #FFF;*/
+	background:url(/images/game.png) #FFF;
 	margin: 0 auto;
 	margin-top: 130px;
 }
@@ -382,4 +382,30 @@ input[type="range"]:before {
 input[type="range"]:after {
     right: 0em;
     content: attr(max);
+}
+/*description*/
+
+.header_desc{
+	margin-top: 80px;
+	height: 200px;
+	background:#DDDDDD;
+}
+.desc_content{
+	padding: 24px;
+	color: #757575;
+}
+.desc_h2{
+	font-size: 20px;
+	font-weight: 500;
+	color: #424242;
+}
+.desc{
+	font-style: italic;
+	font-size: 14px;
+}
+.desc_date{
+	font-size: 14px;
+}
+.desc-heure{
+	float: right;
 }
