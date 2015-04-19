@@ -294,7 +294,7 @@ input[type="submit"]{
 	display: block;
 	line-height: 48px;
 	border-bottom: 1px solid #cccccc;
-	padding-left: 24px; 
+
 }
 .no_check{
 	background: #eeeeee;
@@ -304,7 +304,7 @@ input[type="submit"]{
 	display: block;
 	line-height: 48px;
 	border-bottom: 1px solid #cccccc;
-	padding-left: 24px; 
+
 }
 .profil_form{
 	padding: 0 24px;
@@ -325,7 +325,7 @@ input[type="submit"]{
 	width: 322px;
 	height: 322px;
 	border-radius: 161px;
-	background:url(../images/run.png) #FFF;
+	/*background:url(../images/game.png) #FFF;*/
 	margin: 0 auto;
 	margin-top: 130px;
 }

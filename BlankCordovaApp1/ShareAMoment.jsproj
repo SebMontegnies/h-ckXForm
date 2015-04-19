@@ -110,13 +110,21 @@
     <VisualStudioVersion>12.0</VisualStudioVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="activite.html" />
     <Content Include="add.html" />
+    <Content Include="categoriesSelection.html" />
+    <Content Include="choice.html" />
     <Content Include="css\index.css" />
     <Content Include="images\burger.png" />
+    <Content Include="images\cofee.png" />
+    <Content Include="images\drink.png" />
     <Content Include="images\etienne.jpg" />
+    <Content Include="images\game.png" />
     <Content Include="images\header.jpg" />
     <Content Include="images\line.png" />
     <Content Include="images\load.png" />
+    <Content Include="images\movie.png" />
+    <Content Include="images\run.png" />
     <Content Include="mainPage.html" />
     <Content Include="merges\android\scripts\android2.3-jscompat.js" />
     <Content Include="merges\android\scripts\platformOverrides.js" />
