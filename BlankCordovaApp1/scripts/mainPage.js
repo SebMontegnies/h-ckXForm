@@ -12,8 +12,10 @@
         document.addEventListener('pause', onPause.bind(this), false);
         document.addEventListener('resume', onResume.bind(this), false);
 
+
         // TODO: Cordova has been loaded. Perform any initialization that requires Cordova here.
         refreshEvent();
+        
     };
 
     function onPause() {
@@ -26,13 +28,14 @@
     };
 })();
 
-var $latitude, $longitude;
+var $lat, $long;
 var $listEventFromServer;
 
 $(document).ready(function () {
-    navigator.geolocation.getCurrentPosition(initialise);
 
     refreshEvent();
+
+    
 
 
     $(".btnMenu").click(function () {
@@ -53,22 +56,23 @@ $(document).ready(function () {
 });
 
 function refreshEvent() {
+    
     addAndRemoveEvent();
+
     setInterval(function () {
         addAndRemoveEvent();
+    //Refresh the page every 5 minutes
     }, 300000)
 };
 
 function addAndRemoveEvent() {
+
     $("#eventDiv").empty();
-
-    navigator.geolocation.getCurrentPosition(initialise);
-
 
     $infoToMainPage = {
         Email: window.localStorage.getItem("mailUser"),
-        Latitude: $latitude,
-        Longitude : $longitude
+        Latitude: "50,46",
+        Longitude: "3,93"
     }
 
 
@@ -102,7 +106,7 @@ function addAndRemoveEvent() {
         var $hour = $beginDate.substr(11, 2);
         var $min = $beginDate.substr(14, 2);
 
-        $beginDate = $month + "/" + $day + " " + $hour + ":" + $min;
+        $beginDate =  $day+ "/" + $month + " " + $hour + ":" + $min;
 
 
         $event = '<section class="act">' +
@@ -132,9 +136,8 @@ function toggleBurgerMenu() {
     }
 }
 
-function initialise(location) {
-    //Get current position;
-    $latitude = location.coords.latitude;
-    $longitude = location.coords.longitude;
-    console.log(location);
-};
+//function initialize(location) {
+//    //Get current position
+//    currentLocation = new google.maps.LatLng(location.coords.latitude, location.coords.longitude);
+
+//}
