@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>BlankCordovaApp1</title>
+
+    <!-- BlankCordovaApp1 references -->
+    <link href="css/main.css" rel="stylesheet" />
+    <link href="css/index.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="main">
+        <nav class="main_nav">
+            <span class="title_nav">Sign</span>
+            
+        </nav>
+        <header class="header">“ Personal information ”</header>
+        <form class="form" action="">
+            <input type="text" placeholder="Email" id="emailIndex">
+            <input type="text" placeholder="Mot de passe" id="passwordIndex">
+            <p hidden id="wrongPasswordIndex" style="color:orangered">Mauvais mot de passe</p>
+
+
+            <input type="button" id="signInBtn" value="Sign in">
+            <input type="submit" value="Se connecter avec facebook">
+        </form>
+    </div>
+
+    <!-- Cordova reference, this is added to your app when it's built. -->
+    <script src="cordova.js"></script>
+    <script src="scripts/platformOverrides.js"></script>
+
+    
+    <script src="scripts/Jquery/jquery-1.11.2.min.js"></script>
+    <script src="scripts/Jquery/jquery-ui-1.11.4/jquery-ui.min.js"></script>
+    
+    <script src="scripts/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "changedFilesIos": [
+    "css\\index.css",
+    "usersettings.html",
+    "activite.html",
+    "config.xml",
+    "choice.html",
+    "categoriesSelection.html",
+    "images\\cofee.png",
+    "images\\drink.png",
+    "images\\game.png",
+    "images\\run.png",
+    "images\\movie.png"
+  ],
+  "deletedFilesIos": [],
+  "addedPluginsIos": [],
+  "deletedPluginsIos": [],
+  "changedFiles": [],
+  "deletedFiles": [],
+  "addedPlugins": [],
+  "deletedPlugins": []
+}

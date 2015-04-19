@@ -110,7 +110,10 @@
     <VisualStudioVersion>12.0</VisualStudioVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="activite.html" />
     <Content Include="add.html" />
+    <Content Include="categoriesSelection.html" />
+    <Content Include="choice.html" />
     <Content Include="css\index.css" />
     <Content Include="images\burger.png" />
     <Content Include="images\Boireunverre.png" />
