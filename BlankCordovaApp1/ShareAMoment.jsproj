@@ -123,6 +123,7 @@
     <Content Include="merges\android\scripts\platformOverrides.js" />
     <Content Include="scripts\description.js" />
     <Content Include="scripts\add.js" />
+    <Content Include="scripts\categoriesSelection.js" />
     <Content Include="scripts\pickadate.js-3.5.5\.gitignore" />
     <Content Include="scripts\pickadate.js-3.5.5\.jshintrc" />
     <Content Include="scripts\pickadate.js-3.5.5\.travis.yml" />
