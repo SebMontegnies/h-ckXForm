@@ -17,11 +17,11 @@ $(document).ready(function () {
     var index = 0;
     var isFinished = false;
 
-    images.push("images/JeuxVidéo.png");
-    images.push("images/Soirée.png");
-    images.push("images/Sport.png");
-    images.push("images/Boireunverre.png");
-    images.push("images/Cinema.png");
+    images.push("/images/JeuxVidéo.png");
+    images.push("/images/Soirée.png");
+    images.push("/images/Sport.png");
+    images.push("/images/Boireunverre.png");
+    images.push("/images/Cinema.png");
 
     $.getJSON("http://shareamoment.azurewebsites.net/api/Categories", function (data) {
 

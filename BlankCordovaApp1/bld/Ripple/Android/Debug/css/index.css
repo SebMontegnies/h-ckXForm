@@ -23,7 +23,6 @@ html{
 	margin:0 30px;
 }
 .nav_ul{
-	/*display: none;*/
 }
 	
 .title_nav{
@@ -326,7 +325,7 @@ input[type="submit"]{
 	width: 322px;
 	height: 322px;
 	border-radius: 161px;
-	background:url(../images/run.png) #FFF;
+	background:url(/images/game.png) #FFF;
 	margin: 0 auto;
 	margin-top: 130px;
 }
@@ -364,6 +363,25 @@ input[type="submit"]{
 .cross{
 	background: url(../images/cross.png) no-repeat;
 	float: right;
+}
+
+input[type="range"] {
+    position: relative;
+    margin-left: 1em;
+}
+input[type="range"]:after,
+input[type="range"]:before {
+    position: absolute;
+    top: 1em;
+    color: #aaa;
+}
+input[type="range"]:before {
+    left:0em;
+    content: attr(min);
+}
+input[type="range"]:after {
+    right: 0em;
+    content: attr(max);
 }
 /*description*/
 

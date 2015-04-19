@@ -38,7 +38,7 @@ $(document).ready(function () {
     var $email = window.localStorage.getItem("mailUser");
 
         var $jsonFormat = {
-            Email: $mailUser,
+            Email: $email,
         };
 
 
@@ -148,9 +148,10 @@ function getInformationsAboutPerson() {
                 li.setAttribute("class", "liSettingsEvent no_check");
             }
 
-               
+
 
             ul.appendChild(li);
-            
+
         });
-}
+    })
+};

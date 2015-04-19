@@ -255,18 +255,13 @@
     "scripts\\pickadate.js-3.5.5\\lib\\compressed\\translations\\sl_SI.js",
     "scripts\\pickadate.js-3.5.5\\lib\\translations\\it_IT.js",
     "scripts\\categoriesselection.js",
-    "usersettings.html"
+    "usersettings.html",
+    "categoriesselection.html"
   ],
   "deletedFilesIos": [],
   "addedPluginsIos": [],
   "deletedPluginsIos": [],
-  "changedFiles": [
-    "scripts\\mainPage.js",
-    "scripts\\categoriesselection.js",
-    "scripts\\userSettings.js",
-    "usersettings.html",
-    "css\\index.css"
-  ],
+  "changedFiles": [],
   "deletedFiles": [],
   "addedPlugins": [],
   "deletedPlugins": []
