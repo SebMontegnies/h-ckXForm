@@ -557,7 +557,6 @@
     <Content Include="choice.html" />
     <Content Include="css\index.css" />
     <Content Include="desc.html" />
-    <Content Include="images\burger.png" />
     <Content Include="images\cofee.png" />
     <Content Include="images\cross.png" />
     <Content Include="images\drink.png" />
