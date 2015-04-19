@@ -555,6 +555,9 @@
     <Content Include="bld\Ripple\iOS\Debug\scripts\userSettings.js" />
     <Content Include="categoriesSelection.html" />
     <Content Include="choice.html" />
+    <Content Include="config.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="css\index.css" />
     <Content Include="desc.html" />
     <Content Include="Description_Event.html" />
