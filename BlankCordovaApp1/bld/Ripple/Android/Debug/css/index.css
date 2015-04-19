@@ -57,7 +57,7 @@ html{
 	width: 70%;
 	margin: 0 auto;
 }
-input[type="text"]{
+input[type="text"], input[type="password"]{
 	display: block;
 	margin: 0 0 15px 0;
 	height: 48px;
@@ -83,7 +83,7 @@ input[type="text"]{
    color:    #424242;
 }
 
-input[type="button"]{
+input[type="button"],.adds_form{
 	height: 48px;
 	width: 100%;
 	color: white;
@@ -93,6 +93,8 @@ input[type="button"]{
 	background: #3b9953;
 	border:none;
 	margin: 40px 0px 15px 0px;
+    text-align:center;
+    line-height:48px;
 
 }
 
@@ -242,7 +244,7 @@ input[type="submit"]{
 	margin-bottom: 20px;
 	display: block;
 }
-.add_form input[type="submit"], .profil_form input[type="submit"]{
+.add_form input[type="submit"], .profil_form input[type="submit"], .add_form input[type="button"]{
 	height: 100px;
 	margin:0 auto;
 	padding: 0 24px;
@@ -251,6 +253,17 @@ input[type="submit"]{
 	width: 100px;
 	border-radius: 50px;
 	background: #424242 url(../images/valid.png) center center no-repeat;
+}
+.add_form input[type="button"]:first-child{
+    	height: 48px;
+	width: 100%;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	display: block;
+	background: #3b9953;
+	border:none;
+	margin: 40px 0px 15px 0px;
 }
 .add_form input[type="submit"]:focus, .profil_form input[type="submit"]:focus{
 	background: #4caf50 url(../images/valid.png) center center no-repeat;
@@ -273,6 +286,7 @@ input[type="submit"]{
 	font-weight: 500;
 
 }
+
 .profil_activity{
 	height: 240px;
 	overflow: scroll;
