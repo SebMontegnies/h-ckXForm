@@ -110,6 +110,7 @@
     <VisualStudioVersion>12.0</VisualStudioVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="categoriesSelection.html" />
     <Content Include="Description_Event.html" />
     <Content Include="add.html" />
     <Content Include="css\index.css" />

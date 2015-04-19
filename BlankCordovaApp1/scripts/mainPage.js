@@ -66,8 +66,8 @@ function addAndRemoveEvent() {
 
     $infoToMainPage = {
         Email: window.localStorage.getItem("mailUser"),
-        Latitude: "50,46",
-        Longitude: "3,93"
+        Latitude: "50.46",
+        Longitude: "3.93"
     }
 
 
