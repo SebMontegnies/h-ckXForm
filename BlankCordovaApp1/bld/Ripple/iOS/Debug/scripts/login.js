@@ -64,12 +64,15 @@ $(document).ready(function () {
                     //Success, the user is already in the database
 
                     //Set the localstorage to register the email
-
                     window.localStorage.setItem("mailUser", $email);
 
                     document.location.href = "mainPage.html";
+
                     break;
                 case '2':
+                    window.localStorage.setItem("mailUser", $email);
+
+                    document.location.href = "categoriesSelection.html";
                     //THe user is not in the database, need to create his account
                     break;
                 default:
