@@ -12,10 +12,8 @@
         document.addEventListener('pause', onPause.bind(this), false);
         document.addEventListener('resume', onResume.bind(this), false);
 
-
         // TODO: Cordova has been loaded. Perform any initialization that requires Cordova here.
         refreshEvent();
-        
     };
 
     function onPause() {
@@ -34,8 +32,6 @@ var $listEventFromServer;
 $(document).ready(function () {
 
     refreshEvent();
-
-    
 
 
     $(".btnMenu").click(function () {
@@ -56,9 +52,7 @@ $(document).ready(function () {
 });
 
 function refreshEvent() {
-    
     addAndRemoveEvent();
-
     setInterval(function () {
         addAndRemoveEvent();
     //Refresh the page every 5 minutes
@@ -66,7 +60,6 @@ function refreshEvent() {
 };
 
 function addAndRemoveEvent() {
-
     $("#eventDiv").empty();
 
     $infoToMainPage = {
@@ -91,7 +84,9 @@ function addAndRemoveEvent() {
 
 
     $.each($listEventFromServer, function () {
+        
         $image = $(this).attr("CategoryName").replace(' ', '');
+
         $title = $(this).attr("Name");
         $description = $(this).attr("Description");
 
@@ -106,10 +101,10 @@ function addAndRemoveEvent() {
         var $hour = $beginDate.substr(11, 2);
         var $min = $beginDate.substr(14, 2);
 
-        $beginDate =  $day+ "/" + $month + " " + $hour + ":" + $min;
+        $beginDate = $day+ "/" + $month + " " + $hour + ":" + $min;
 
 
-        $event = '<section class="act">' +
+        $event = '<section class="act" id="$(this).EventId">' +
         '<img class="act_img" src="images/' + $image + '.png" alt="">' +
         '<div class="act_content">' +
             '<h2>' + $title + '</h2>' +
@@ -135,9 +130,3 @@ function toggleBurgerMenu() {
         cp.style.left = "0px";
     }
 }
-
-//function initialize(location) {
-//    //Get current position
-//    currentLocation = new google.maps.LatLng(location.coords.latitude, location.coords.longitude);
-
-//}
