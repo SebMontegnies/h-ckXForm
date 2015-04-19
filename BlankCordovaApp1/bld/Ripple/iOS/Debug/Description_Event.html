@@ -28,15 +28,21 @@
                 <li><button href="#" class="btnMenu" id="btnMenuAccueil">Accueil</button></li>
             </ul>
         </nav>
-        <header class="header_desc"></header>
+
+
+
+        <header class="header_desc">
+            <div id="divLocalise"></div>
+        </header>
         <div class="desc_content">
-            <h2 class="desc_h2">Titre</h2>
-            <h3 class="desc_cat">Categorie</h3>
-            <div class="desc_date"><span class="desc-date">15 mars</span><span class="desc-heure green">12h50</span></div>
-            <p class="desc_lieu">lieu</p>
-            <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pharetra, purus non consequat sodales, velit odio semper massa, eget ultricies dolor ligula at ligula. Fusce ornare mollis enim vel finibus. Sed aliquet ex vel tellus rhoncus, eu finibus lectus mattis. Quisque pretium bibendum varius. Cras eros justo, mattis laoreet mi eu, pellentesque mollis arcu. Vestibulum et sapien et diam gravida luctus.</p>
+            <h3 class="desc_cat" id="desc_cat">Categorie</h3>
+            <div class="desc_date">
+                <span class="desc-date" id="desc_date">15 mars</span>
+                <span class="desc-heure green" id="desc_hour">12h50</span>
+            </div>
+            <p class="desc" id="desc_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pharetra, purus non consequat sodales, velit odio semper massa, eget ultricies dolor ligula at ligula. Fusce ornare mollis enim vel finibus. Sed aliquet ex vel tellus rhoncus, eu finibus lectus mattis. Quisque pretium bibendum varius. Cras eros justo, mattis laoreet mi eu, pellentesque mollis arcu. Vestibulum et sapien et diam gravida luctus.</p>
         </div>
-        <div id="map-canvas"></div>
+        
     </div>
     <!-- Cordova reference, this is added to your app when it's built. -->
     <script src="cordova.js"></script>

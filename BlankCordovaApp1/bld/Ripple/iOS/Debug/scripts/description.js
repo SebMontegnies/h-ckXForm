@@ -29,18 +29,46 @@ var map;
 var service;
 var marker;
 
+var eventLat;
+var eventLong;
+
 
 $(document).ready(function () {
-    google.maps.event.addDomListener(window, 'load', initialize);
-    alert("tg");
+    //google.maps.event.addDomListener(window, 'load', initialise);
+    
+
+     //= window.localStorage.getItem("mailUser");
+   
+
+    var $activityID = "866593f6-fbc0-4830-a9da-0ae8e8b97a75";
+
+    var $jsonFormat = {
+        Guid: $activityID,
+    };
+
+    //data: JSON.stringify($jsonFormat),
+
     $.ajax({
         type: "GET",
-        url: "http://shareamoment.azurewebsites.net/api/Events/b1c88466-d993-47b1-b3d5-30945a4bb32a",
+        url: "http://shareamoment.azurewebsites.net/api/Events/" + $activityID,
+        data: JSON.stringify($jsonFormat),
         dataType: "json",
         contentType: "application/json",
         async: false,
    
-    }).done(function (data) {            
+    }).done(function (data) {
+
+        document.getElementById("desc_cat").innerHTML = data.CategoryName;
+        document.getElementById("desc_date").innerHTML = data.BeginDate.substring(0, 10);
+        document.getElementById("desc_hour").innerHTML = data.BeginDate.substring(11, 19);
+        document.getElementById("desc_desc").innerHTML = data.Description;
+
+
+        eventLat = data.Latitude;
+        eventLong = data.Longitude;
+
+        navigator.geolocation.getCurrentPosition(initialise);
+
     })
     .fail(function (data) {
         Success = true;
@@ -80,16 +108,17 @@ function initialise(location) {
     //Get current position
     var currentLocation = new google.maps.LatLng(location.coords.latitude, location.coords.longitude);
 
+    var eventLocation = new google.maps.LatLng(eventLat, eventLong);
+
     //Center the view on our position
     var mapOptions = {
-        center: currentLocation,
+        center: eventLocation,
         zoom: 15
     };
 
     //Create map
     map = new google.maps.Map(document.getElementById("divLocalise"),
             mapOptions);
-
 
     // To add the marker to the map, use the 'map' property
     marker = new google.maps.Marker({
@@ -98,6 +127,21 @@ function initialise(location) {
         draggable: true,
         title: "Drag me!"
     });
+
+
+
+    eventMarker = new google.maps.Marker({
+        position: eventLocation,
+        map: map,
+        draggable: false,
+        title: "Ici !"
+    });
+
+
+    
+
+
+    
 
     
 };

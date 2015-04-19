@@ -1,5 +1,9 @@
 {
-  "changedFilesIos": [],
+  "changedFilesIos": [
+    "scripts\\description.js",
+    "description_event.html",
+    "scripts\\add.js"
+  ],
   "deletedFilesIos": [],
   "addedPluginsIos": [],
   "deletedPluginsIos": [],
