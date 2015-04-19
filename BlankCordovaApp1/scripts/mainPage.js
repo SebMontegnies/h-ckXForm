@@ -86,6 +86,9 @@ function addAndRemoveEvent() {
     $.each($listEventFromServer, function () {
         
         $image = $(this).attr("CategoryName").replace(' ', '');
+        if ($image == "Boireun verre") {
+            $image = "Boireunverre";
+        }
 
         $title = $(this).attr("Name");
         $description = $(this).attr("Description");

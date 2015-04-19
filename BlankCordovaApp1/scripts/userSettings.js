@@ -2,7 +2,8 @@
 
 
 $(document).ready(function () {
-
+    var valof = $("#progressBar").val();
+    $("#kmInput").val(valof+"km");
 
     $(".btnMenu").click(function () {
         switch ($(this).attr("id")) {
@@ -10,13 +11,20 @@ $(document).ready(function () {
                 document.location.href = "userSettings.html";
                 break;
             case "btnMenuProfil":
-                alert("mon profil");
+                document.location.href = "add.html";
                 break;
             case "btnMenuAccueil":
                 document.location.href = "mainPage.html";
+                break;
             default:
                 alert("not set yet");
         }
+    });
+
+
+    $("#progressBar").on('change', function () {
+        var valof = $(this).val();
+        $("#kmInput").val(valof+"km");
     });
 
 
@@ -45,19 +53,12 @@ $(document).ready(function () {
             contentType: "application/json",
             async: false,
         }).done(function (data) {
-
-        
-            //var jsonData = JSON.parse(data);
             var ul = document.getElementById("activitiesList");
 
             $.each(data, function (idx, obj) {
-
-
                 var li = document.createElement("li");
                 li.appendChild(document.createTextNode(obj.Name));
                 li.setAttribute("id", obj.CategoryId);
-            
-
 
                 if (obj.Selected) {
                     li.setAttribute("class", "liSettingsEvent check");
@@ -127,4 +128,35 @@ function toggleBurgerMenu() {
     } else {
         cp.style.left = "0px";
     }
+}
+
+function getInformationsAboutPerson() {
+
+    $.ajax({
+        type: "GET",
+        url: "http://shareamoment.azurewebsites.net/api/Users/get/",
+        data: JSON.stringify($jsonFormat),
+        dataType: "json",
+        contentType: "application/json",
+        async: false,
+    }).done(function (data) {
+        var ul = document.getElementById("activitiesList");
+
+        $.each(data, function (idx, obj) {
+            var li = document.createElement("li");
+            li.appendChild(document.createTextNode(obj.Name));
+            li.setAttribute("id", obj.CategoryId);
+
+            if (obj.Selected) {
+                li.setAttribute("class", "liSettingsEvent check");
+            }
+            else {
+                li.setAttribute("class", "liSettingsEvent no_check");
+            }
+
+               
+
+            ul.appendChild(li);
+            
+        });
 }

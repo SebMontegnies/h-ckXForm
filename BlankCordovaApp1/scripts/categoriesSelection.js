@@ -7,7 +7,7 @@ $(document).ready(function () {
 
     //var mailUser = window.localStorage.getItem("mailUser");
 
-    var $email = "codu@codu.be";//.localStorage.getItem("mailUser");
+    var $email = window.localStorage.getItem("mailUser");
 
     var $jsonFormat = {
         Email: $email,
@@ -19,11 +19,11 @@ $(document).ready(function () {
     var index = 0;
     var isFinished = false;
 
-    images.push("images/game.png");
-    images.push("images/drink.png");
-    images.push("images/run.png");
-    images.push("images/cofee.png");
-    images.push("images/movie.png");
+    images.push("images/JeuxVidéo.png");
+    images.push("images/Soirée.png");
+    images.push("images/Sport.png");
+    images.push("images/Boireunverre.png");
+    images.push("images/Cinema.png");
 
 
     $.getJSON("http://shareamoment.azurewebsites.net/api/Categories", function (data) {
