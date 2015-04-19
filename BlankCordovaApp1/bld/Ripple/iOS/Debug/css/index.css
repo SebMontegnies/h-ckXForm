@@ -364,3 +364,29 @@ input[type="submit"]{
 	background: url(../images/cross.png) no-repeat;
 	float: right;
 }
+/*description*/
+
+.header_desc{
+	margin-top: 80px;
+	height: 200px;
+	background:#DDDDDD;
+}
+.desc_content{
+	padding: 24px;
+	color: #757575;
+}
+.desc_h2{
+	font-size: 20px;
+	font-weight: 500;
+	color: #424242;
+}
+.desc{
+	font-style: italic;
+	font-size: 14px;
+}
+.desc_date{
+	font-size: 14px;
+}
+.desc-heure{
+	float: right;
+}
