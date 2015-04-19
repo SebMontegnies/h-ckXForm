@@ -325,7 +325,7 @@ input[type="submit"]{
 	width: 322px;
 	height: 322px;
 	border-radius: 161px;
-	/*background:url(../images/game.png) #FFF;*/
+	background:url(/images/game.png) #FFF;
 	margin: 0 auto;
 	margin-top: 130px;
 }
