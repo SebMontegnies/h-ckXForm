@@ -1,193 +1,694 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>ASUSCODU</Machine>
-    <WindowsUser>Corentin</WindowsUser>
+    <Machine>SEB</Machine>
+    <WindowsUser>Sébastien</WindowsUser>
     <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
     <SolutionConfiguration>debug|anycpu</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
-    <PackageIdentityName>64134f80-e5a1-11e4-9faf-57b126ab744a</PackageIdentityName>
-    <IntermediateOutputPath>C:\Users\Corentin\Source\Repos\h-ckXForm\BlankCordovaApp1\bld\Debug\platforms\windows\build\phone\bld\</IntermediateOutputPath>
+    <PackageIdentityName>b33b9050-e668-11e4-bdb9-fb019fa99570</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\build\phone\bld\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Corentin\Source\Repos\h-ckXForm\BlankCordovaApp1\bld\Debug\platforms\windows\build\phone\debug\anycpu\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\build\phone\debug\anycpu\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Corentin\Source\Repos\h-ckXForm\BlankCordovaApp1\bld\Debug\platforms\windows\images\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\images\SplashScreen.scale-100.png">
       <PackagePath>images\SplashScreen.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Corentin\Source\Repos\h-ckXForm\BlankCordovaApp1\bld\Debug\platforms\windows\images\SplashScreen.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\images\SplashScreen.scale-240.png">
       <PackagePath>images\SplashScreen.scale-240.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Corentin\Source\Repos\h-ckXForm\BlankCordovaApp1\bld\Debug\platforms\windows\images\SplashScreenPhone.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\images\SplashScreenPhone.scale-240.png">
       <PackagePath>images\SplashScreenPhone.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Corentin\Source\Repos\h-ckXForm\BlankCordovaApp1\bld\Debug\platforms\windows\images\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\images\Square150x150Logo.scale-100.png">
       <PackagePath>images\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Corentin\Source\Repos\h-ckXForm\BlankCordovaApp1\bld\Debug\platforms\windows\images\Square150x150Logo.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\images\Square150x150Logo.scale-240.png">
       <PackagePath>images\Square150x150Logo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Corentin\Source\Repos\h-ckXForm\BlankCordovaApp1\bld\Debug\platforms\windows\images\Square30x30Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\images\Square30x30Logo.scale-100.png">
       <PackagePath>images\Square30x30Logo.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Corentin\Source\Repos\h-ckXForm\BlankCordovaApp1\bld\Debug\platforms\windows\images\Square310x310Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\images\Square310x310Logo.scale-100.png">
       <PackagePath>images\Square310x310Logo.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Corentin\Source\Repos\h-ckXForm\BlankCordovaApp1\bld\Debug\platforms\windows\images\Square44x44Logo.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\images\Square44x44Logo.scale-240.png">
       <PackagePath>images\Square44x44Logo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Corentin\Source\Repos\h-ckXForm\BlankCordovaApp1\bld\Debug\platforms\windows\images\Square70x70Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\images\Square70x70Logo.scale-100.png">
       <PackagePath>images\Square70x70Logo.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Corentin\Source\Repos\h-ckXForm\BlankCordovaApp1\bld\Debug\platforms\windows\images\Square71x71Logo.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\images\Square71x71Logo.scale-240.png">
       <PackagePath>images\Square71x71Logo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Corentin\Source\Repos\h-ckXForm\BlankCordovaApp1\bld\Debug\platforms\windows\images\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\images\StoreLogo.scale-100.png">
       <PackagePath>images\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Corentin\Source\Repos\h-ckXForm\BlankCordovaApp1\bld\Debug\platforms\windows\images\StoreLogo.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\images\StoreLogo.scale-240.png">
       <PackagePath>images\StoreLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Corentin\Source\Repos\h-ckXForm\BlankCordovaApp1\bld\Debug\platforms\windows\images\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\images\Wide310x150Logo.scale-100.png">
       <PackagePath>images\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Corentin\Source\Repos\h-ckXForm\BlankCordovaApp1\bld\Debug\platforms\windows\images\Wide310x150Logo.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\images\Wide310x150Logo.scale-240.png">
       <PackagePath>images\Wide310x150Logo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Corentin\Source\Repos\h-ckXForm\BlankCordovaApp1\bld\Debug\platforms\windows\www\images\burger.png">
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\images\burger.png">
       <PackagePath>www\images\burger.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Corentin\Source\Repos\h-ckXForm\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\Jquery\jquery-ui-1.11.4\images\ui-bg_diagonals-thick_18_b81900_40x40.png">
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\images\cofee.png">
+      <PackagePath>www\images\cofee.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\images\cross.png">
+      <PackagePath>www\images\cross.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\images\drink.png">
+      <PackagePath>www\images\drink.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\images\game.png">
+      <PackagePath>www\images\game.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\images\gameIcon.png">
+      <PackagePath>www\images\gameIcon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\images\heart.png">
+      <PackagePath>www\images\heart.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\images\line.png">
+      <PackagePath>www\images\line.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\images\load.png">
+      <PackagePath>www\images\load.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\images\map.png">
+      <PackagePath>www\images\map.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\images\movie.png">
+      <PackagePath>www\images\movie.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\images\run.png">
+      <PackagePath>www\images\run.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\images\v.png">
+      <PackagePath>www\images\v.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\images\valid.png">
+      <PackagePath>www\images\valid.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\Jquery\jquery-ui-1.11.4\images\ui-bg_diagonals-thick_18_b81900_40x40.png">
       <PackagePath>www\scripts\Jquery\jquery-ui-1.11.4\images\ui-bg_diagonals-thick_18_b81900_40x40.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Corentin\Source\Repos\h-ckXForm\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\Jquery\jquery-ui-1.11.4\images\ui-bg_diagonals-thick_20_666666_40x40.png">
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\Jquery\jquery-ui-1.11.4\images\ui-bg_diagonals-thick_20_666666_40x40.png">
       <PackagePath>www\scripts\Jquery\jquery-ui-1.11.4\images\ui-bg_diagonals-thick_20_666666_40x40.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Corentin\Source\Repos\h-ckXForm\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\Jquery\jquery-ui-1.11.4\images\ui-bg_flat_10_000000_40x100.png">
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\Jquery\jquery-ui-1.11.4\images\ui-bg_flat_10_000000_40x100.png">
       <PackagePath>www\scripts\Jquery\jquery-ui-1.11.4\images\ui-bg_flat_10_000000_40x100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Corentin\Source\Repos\h-ckXForm\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\Jquery\jquery-ui-1.11.4\images\ui-bg_glass_100_f6f6f6_1x400.png">
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\Jquery\jquery-ui-1.11.4\images\ui-bg_glass_100_f6f6f6_1x400.png">
       <PackagePath>www\scripts\Jquery\jquery-ui-1.11.4\images\ui-bg_glass_100_f6f6f6_1x400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Corentin\Source\Repos\h-ckXForm\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\Jquery\jquery-ui-1.11.4\images\ui-bg_glass_100_fdf5ce_1x400.png">
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\Jquery\jquery-ui-1.11.4\images\ui-bg_glass_100_fdf5ce_1x400.png">
       <PackagePath>www\scripts\Jquery\jquery-ui-1.11.4\images\ui-bg_glass_100_fdf5ce_1x400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Corentin\Source\Repos\h-ckXForm\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\Jquery\jquery-ui-1.11.4\images\ui-bg_glass_65_ffffff_1x400.png">
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\Jquery\jquery-ui-1.11.4\images\ui-bg_glass_65_ffffff_1x400.png">
       <PackagePath>www\scripts\Jquery\jquery-ui-1.11.4\images\ui-bg_glass_65_ffffff_1x400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Corentin\Source\Repos\h-ckXForm\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\Jquery\jquery-ui-1.11.4\images\ui-bg_gloss-wave_35_f6a828_500x100.png">
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\Jquery\jquery-ui-1.11.4\images\ui-bg_gloss-wave_35_f6a828_500x100.png">
       <PackagePath>www\scripts\Jquery\jquery-ui-1.11.4\images\ui-bg_gloss-wave_35_f6a828_500x100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Corentin\Source\Repos\h-ckXForm\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\Jquery\jquery-ui-1.11.4\images\ui-bg_highlight-soft_100_eeeeee_1x100.png">
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\Jquery\jquery-ui-1.11.4\images\ui-bg_highlight-soft_100_eeeeee_1x100.png">
       <PackagePath>www\scripts\Jquery\jquery-ui-1.11.4\images\ui-bg_highlight-soft_100_eeeeee_1x100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Corentin\Source\Repos\h-ckXForm\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\Jquery\jquery-ui-1.11.4\images\ui-bg_highlight-soft_75_ffe45c_1x100.png">
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\Jquery\jquery-ui-1.11.4\images\ui-bg_highlight-soft_75_ffe45c_1x100.png">
       <PackagePath>www\scripts\Jquery\jquery-ui-1.11.4\images\ui-bg_highlight-soft_75_ffe45c_1x100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Corentin\Source\Repos\h-ckXForm\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\Jquery\jquery-ui-1.11.4\images\ui-icons_222222_256x240.png">
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\Jquery\jquery-ui-1.11.4\images\ui-icons_222222_256x240.png">
       <PackagePath>www\scripts\Jquery\jquery-ui-1.11.4\images\ui-icons_222222_256x240.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Corentin\Source\Repos\h-ckXForm\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\Jquery\jquery-ui-1.11.4\images\ui-icons_228ef1_256x240.png">
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\Jquery\jquery-ui-1.11.4\images\ui-icons_228ef1_256x240.png">
       <PackagePath>www\scripts\Jquery\jquery-ui-1.11.4\images\ui-icons_228ef1_256x240.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Corentin\Source\Repos\h-ckXForm\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\Jquery\jquery-ui-1.11.4\images\ui-icons_ef8c08_256x240.png">
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\Jquery\jquery-ui-1.11.4\images\ui-icons_ef8c08_256x240.png">
       <PackagePath>www\scripts\Jquery\jquery-ui-1.11.4\images\ui-icons_ef8c08_256x240.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Corentin\Source\Repos\h-ckXForm\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\Jquery\jquery-ui-1.11.4\images\ui-icons_ffd27a_256x240.png">
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\Jquery\jquery-ui-1.11.4\images\ui-icons_ffd27a_256x240.png">
       <PackagePath>www\scripts\Jquery\jquery-ui-1.11.4\images\ui-icons_ffd27a_256x240.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Corentin\Source\Repos\h-ckXForm\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\Jquery\jquery-ui-1.11.4\images\ui-icons_ffffff_256x240.png">
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\Jquery\jquery-ui-1.11.4\images\ui-icons_ffffff_256x240.png">
       <PackagePath>www\scripts\Jquery\jquery-ui-1.11.4\images\ui-icons_ffffff_256x240.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Corentin\Source\Repos\h-ckXForm\BlankCordovaApp1\bld\Debug\platforms\windows\www\BlankCordovaApp1.v12.suo">
-      <PackagePath>www\BlankCordovaApp1.v12.suo</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\activite.html">
+      <PackagePath>www\activite.html</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Corentin\Source\Repos\h-ckXForm\BlankCordovaApp1\bld\Debug\platforms\windows\www\ShareAMoment.v12.suo">
-      <PackagePath>www\ShareAMoment.v12.suo</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\add.html">
+      <PackagePath>www\add.html</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Corentin\Source\Repos\h-ckXForm\BlankCordovaApp1\bld\Debug\platforms\windows\www\cordova.js">
-      <PackagePath>www\cordova.js</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\categoriesSelection.html">
+      <PackagePath>www\categoriesSelection.html</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Corentin\Source\Repos\h-ckXForm\BlankCordovaApp1\bld\Debug\platforms\windows\www\cordova_plugins.js">
-      <PackagePath>www\cordova_plugins.js</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\choice.html">
+      <PackagePath>www\choice.html</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Corentin\Source\Repos\h-ckXForm\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\index.js">
-      <PackagePath>www\scripts\index.js</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\login.html">
+      <PackagePath>www\login.html</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Corentin\Source\Repos\h-ckXForm\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\Jquery\jquery-1.11.2.min.js">
-      <PackagePath>www\scripts\Jquery\jquery-1.11.2.min.js</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Corentin\Source\Repos\h-ckXForm\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\Jquery\jquery-ui-1.11.4\external\jquery\jquery.js">
-      <PackagePath>www\scripts\Jquery\jquery-ui-1.11.4\external\jquery\jquery.js</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Corentin\Source\Repos\h-ckXForm\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\Jquery\jquery-ui-1.11.4\jquery-ui.js">
-      <PackagePath>www\scripts\Jquery\jquery-ui-1.11.4\jquery-ui.js</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Corentin\Source\Repos\h-ckXForm\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\Jquery\jquery-ui-1.11.4\jquery-ui.min.js">
-      <PackagePath>www\scripts\Jquery\jquery-ui-1.11.4\jquery-ui.min.js</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Corentin\Source\Repos\h-ckXForm\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\platformOverrides.js">
-      <PackagePath>www\scripts\platformOverrides.js</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Corentin\Source\Repos\h-ckXForm\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\winstore-jscompat.js">
-      <PackagePath>www\scripts\winstore-jscompat.js</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Corentin\Source\Repos\h-ckXForm\BlankCordovaApp1\bld\Debug\platforms\windows\www\css\index.css">
-      <PackagePath>www\css\index.css</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Corentin\Source\Repos\h-ckXForm\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\Jquery\jquery-ui-1.11.4\jquery-ui.css">
-      <PackagePath>www\scripts\Jquery\jquery-ui-1.11.4\jquery-ui.css</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Corentin\Source\Repos\h-ckXForm\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\Jquery\jquery-ui-1.11.4\jquery-ui.min.css">
-      <PackagePath>www\scripts\Jquery\jquery-ui-1.11.4\jquery-ui.min.css</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Corentin\Source\Repos\h-ckXForm\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\Jquery\jquery-ui-1.11.4\jquery-ui.structure.css">
-      <PackagePath>www\scripts\Jquery\jquery-ui-1.11.4\jquery-ui.structure.css</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Corentin\Source\Repos\h-ckXForm\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\Jquery\jquery-ui-1.11.4\jquery-ui.structure.min.css">
-      <PackagePath>www\scripts\Jquery\jquery-ui-1.11.4\jquery-ui.structure.min.css</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Corentin\Source\Repos\h-ckXForm\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\Jquery\jquery-ui-1.11.4\jquery-ui.theme.css">
-      <PackagePath>www\scripts\Jquery\jquery-ui-1.11.4\jquery-ui.theme.css</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Corentin\Source\Repos\h-ckXForm\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\Jquery\jquery-ui-1.11.4\jquery-ui.theme.min.css">
-      <PackagePath>www\scripts\Jquery\jquery-ui-1.11.4\jquery-ui.theme.min.css</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Corentin\Source\Repos\h-ckXForm\BlankCordovaApp1\bld\Debug\platforms\windows\www\images\header.jpg">
-      <PackagePath>www\images\header.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Corentin\Source\Repos\h-ckXForm\BlankCordovaApp1\bld\Debug\platforms\windows\www\index.html">
-      <PackagePath>www\index.html</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Corentin\Source\Repos\h-ckXForm\BlankCordovaApp1\bld\Debug\platforms\windows\www\mainPage.html">
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\mainPage.html">
       <PackagePath>www\mainPage.html</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Corentin\Source\Repos\h-ckXForm\BlankCordovaApp1\bld\Debug\platforms\windows\www\Project_Readme.html">
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\preference.html">
+      <PackagePath>www\preference.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\Project_Readme.html">
       <PackagePath>www\Project_Readme.html</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Corentin\Source\Repos\h-ckXForm\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\Jquery\jquery-ui-1.11.4\index.html">
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\Jquery\jquery-ui-1.11.4\index.html">
       <PackagePath>www\scripts\Jquery\jquery-ui-1.11.4\index.html</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Corentin\Source\Repos\h-ckXForm\BlankCordovaApp1\bld\Debug\platforms\windows\www\ShareAMoment.sln">
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\userSettings.html">
+      <PackagePath>www\userSettings.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\BlankCordovaApp1.v12.suo">
+      <PackagePath>www\BlankCordovaApp1.v12.suo</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\ShareAMoment.v12.suo">
+      <PackagePath>www\ShareAMoment.v12.suo</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\cordova.js">
+      <PackagePath>www\cordova.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\cordova_plugins.js">
+      <PackagePath>www\cordova_plugins.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\add.js">
+      <PackagePath>www\scripts\add.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\categoriesSelection.js">
+      <PackagePath>www\scripts\categoriesSelection.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\Jquery\jquery-1.11.2.min.js">
+      <PackagePath>www\scripts\Jquery\jquery-1.11.2.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\Jquery\jquery-ui-1.11.4\external\jquery\jquery.js">
+      <PackagePath>www\scripts\Jquery\jquery-ui-1.11.4\external\jquery\jquery.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\Jquery\jquery-ui-1.11.4\jquery-ui.js">
+      <PackagePath>www\scripts\Jquery\jquery-ui-1.11.4\jquery-ui.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\Jquery\jquery-ui-1.11.4\jquery-ui.min.js">
+      <PackagePath>www\scripts\Jquery\jquery-ui-1.11.4\jquery-ui.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\login.js">
+      <PackagePath>www\scripts\login.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\mainPage.js">
+      <PackagePath>www\scripts\mainPage.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\Gruntfile.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\Gruntfile.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\compressed\legacy.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\compressed\legacy.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\compressed\picker.date.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\compressed\picker.date.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\compressed\picker.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\compressed\picker.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\compressed\picker.time.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\compressed\picker.time.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\compressed\translations\ar.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\compressed\translations\ar.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\compressed\translations\bg_BG.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\compressed\translations\bg_BG.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\compressed\translations\bs_BA.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\compressed\translations\bs_BA.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\compressed\translations\ca_ES.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\compressed\translations\ca_ES.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\compressed\translations\cs_CZ.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\compressed\translations\cs_CZ.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\compressed\translations\da_DK.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\compressed\translations\da_DK.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\compressed\translations\de_DE.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\compressed\translations\de_DE.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\compressed\translations\el_GR.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\compressed\translations\el_GR.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\compressed\translations\es_ES.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\compressed\translations\es_ES.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\compressed\translations\et_EE.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\compressed\translations\et_EE.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\compressed\translations\eu_ES.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\compressed\translations\eu_ES.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\compressed\translations\fi_FI.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\compressed\translations\fi_FI.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\compressed\translations\fr_FR.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\compressed\translations\fr_FR.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\compressed\translations\gl_ES.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\compressed\translations\gl_ES.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\compressed\translations\he_IL.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\compressed\translations\he_IL.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\compressed\translations\hi_IN.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\compressed\translations\hi_IN.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\compressed\translations\hr_HR.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\compressed\translations\hr_HR.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\compressed\translations\hu_HU.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\compressed\translations\hu_HU.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\compressed\translations\id_ID.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\compressed\translations\id_ID.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\compressed\translations\is_IS.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\compressed\translations\is_IS.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\compressed\translations\it_IT.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\compressed\translations\it_IT.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\compressed\translations\ja_JP.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\compressed\translations\ja_JP.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\compressed\translations\ko_KR.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\compressed\translations\ko_KR.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\compressed\translations\lt_LT.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\compressed\translations\lt_LT.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\compressed\translations\lv_LV.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\compressed\translations\lv_LV.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\compressed\translations\nb_NO.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\compressed\translations\nb_NO.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\compressed\translations\ne_NP.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\compressed\translations\ne_NP.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\compressed\translations\nl_NL.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\compressed\translations\nl_NL.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\compressed\translations\no_NO.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\compressed\translations\no_NO.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\compressed\translations\pl_PL.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\compressed\translations\pl_PL.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\compressed\translations\pt_BR.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\compressed\translations\pt_BR.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\compressed\translations\pt_PT.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\compressed\translations\pt_PT.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\compressed\translations\ro_RO.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\compressed\translations\ro_RO.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\compressed\translations\ru_RU.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\compressed\translations\ru_RU.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\compressed\translations\sk_SK.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\compressed\translations\sk_SK.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\compressed\translations\sl_SI.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\compressed\translations\sl_SI.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\compressed\translations\sv_SE.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\compressed\translations\sv_SE.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\compressed\translations\th_TH.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\compressed\translations\th_TH.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\compressed\translations\tr_TR.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\compressed\translations\tr_TR.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\compressed\translations\uk_UA.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\compressed\translations\uk_UA.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\compressed\translations\vi_VN.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\compressed\translations\vi_VN.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\compressed\translations\zh_CN.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\compressed\translations\zh_CN.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\compressed\translations\zh_TW.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\compressed\translations\zh_TW.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\legacy.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\legacy.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\picker.date.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\picker.date.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\picker.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\picker.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\picker.time.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\picker.time.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\translations\ar.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\translations\ar.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\translations\bg_BG.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\translations\bg_BG.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\translations\bs_BA.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\translations\bs_BA.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\translations\ca_ES.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\translations\ca_ES.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\translations\cs_CZ.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\translations\cs_CZ.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\translations\da_DK.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\translations\da_DK.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\translations\de_DE.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\translations\de_DE.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\translations\el_GR.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\translations\el_GR.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\translations\es_ES.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\translations\es_ES.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\translations\et_EE.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\translations\et_EE.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\translations\eu_ES.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\translations\eu_ES.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\translations\fi_FI.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\translations\fi_FI.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\translations\fr_FR.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\translations\fr_FR.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\translations\gl_ES.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\translations\gl_ES.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\translations\he_IL.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\translations\he_IL.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\translations\hi_IN.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\translations\hi_IN.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\translations\hr_HR.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\translations\hr_HR.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\translations\hu_HU.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\translations\hu_HU.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\translations\id_ID.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\translations\id_ID.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\translations\is_IS.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\translations\is_IS.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\translations\it_IT.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\translations\it_IT.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\translations\ja_JP.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\translations\ja_JP.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\translations\ko_KR.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\translations\ko_KR.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\translations\lt_LT.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\translations\lt_LT.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\translations\lv_LV.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\translations\lv_LV.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\translations\nb_NO.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\translations\nb_NO.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\translations\ne_NP.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\translations\ne_NP.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\translations\nl_NL.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\translations\nl_NL.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\translations\pl_PL.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\translations\pl_PL.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\translations\pt_BR.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\translations\pt_BR.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\translations\pt_PT.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\translations\pt_PT.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\translations\ro_RO.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\translations\ro_RO.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\translations\ru_RU.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\translations\ru_RU.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\translations\sk_SK.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\translations\sk_SK.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\translations\sl_SI.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\translations\sl_SI.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\translations\sv_SE.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\translations\sv_SE.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\translations\th_TH.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\translations\th_TH.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\translations\tr_TR.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\translations\tr_TR.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\translations\uk_UA.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\translations\uk_UA.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\translations\vi_VN.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\translations\vi_VN.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\translations\zh_CN.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\translations\zh_CN.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\translations\zh_TW.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\translations\zh_TW.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\tests\jquery.1.7.0.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\tests\jquery.1.7.0.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\tests\jquery.1.9.1.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\tests\jquery.1.9.1.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\tests\jquery.2.0.0.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\tests\jquery.2.0.0.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\tests\qunit.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\tests\qunit.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\tests\units\base.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\tests\units\base.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\tests\units\date.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\tests\units\date.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\tests\units\time.js">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\tests\units\time.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\platformOverrides.js">
+      <PackagePath>www\scripts\platformOverrides.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\userSettings.js">
+      <PackagePath>www\scripts\userSettings.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\winstore-jscompat.js">
+      <PackagePath>www\scripts\winstore-jscompat.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\css\index.css">
+      <PackagePath>www\css\index.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\css\main.css">
+      <PackagePath>www\css\main.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\Jquery\jquery-ui-1.11.4\jquery-ui.css">
+      <PackagePath>www\scripts\Jquery\jquery-ui-1.11.4\jquery-ui.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\Jquery\jquery-ui-1.11.4\jquery-ui.min.css">
+      <PackagePath>www\scripts\Jquery\jquery-ui-1.11.4\jquery-ui.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\Jquery\jquery-ui-1.11.4\jquery-ui.structure.css">
+      <PackagePath>www\scripts\Jquery\jquery-ui-1.11.4\jquery-ui.structure.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\Jquery\jquery-ui-1.11.4\jquery-ui.structure.min.css">
+      <PackagePath>www\scripts\Jquery\jquery-ui-1.11.4\jquery-ui.structure.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\Jquery\jquery-ui-1.11.4\jquery-ui.theme.css">
+      <PackagePath>www\scripts\Jquery\jquery-ui-1.11.4\jquery-ui.theme.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\Jquery\jquery-ui-1.11.4\jquery-ui.theme.min.css">
+      <PackagePath>www\scripts\Jquery\jquery-ui-1.11.4\jquery-ui.theme.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\compressed\themes\classic.css">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\compressed\themes\classic.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\compressed\themes\classic.date.css">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\compressed\themes\classic.date.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\compressed\themes\classic.time.css">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\compressed\themes\classic.time.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\compressed\themes\default.css">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\compressed\themes\default.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\compressed\themes\default.date.css">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\compressed\themes\default.date.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\compressed\themes\default.time.css">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\compressed\themes\default.time.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\compressed\themes\rtl.css">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\compressed\themes\rtl.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\themes\classic.css">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\themes\classic.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\themes\classic.date.css">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\themes\classic.date.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\themes\classic.time.css">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\themes\classic.time.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\themes\default.css">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\themes\default.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\themes\default.date.css">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\themes\default.date.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\themes\default.time.css">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\themes\default.time.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\themes\rtl.css">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\themes\rtl.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\tests\qunit.css">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\tests\qunit.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\images\etienne.jpg">
+      <PackagePath>www\images\etienne.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\images\header.jpg">
+      <PackagePath>www\images\header.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\images\v">
+      <PackagePath>www\images\v</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\.gitignore">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\.gitignore</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\.jshintrc">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\.jshintrc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\.travis.yml">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\.travis.yml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\bower.json">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\package.json">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\CHANGELOG.md">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\CHANGELOG.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\CONTRIBUTING.md">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\CONTRIBUTING.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\translations\FORMATTING.md">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\translations\FORMATTING.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\translations\NAMING.md">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\translations\NAMING.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\LICENSE.md">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\LICENSE.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\README.md">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\themes-source\base.date.less">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\themes-source\base.date.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\themes-source\base.less">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\themes-source\base.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\themes-source\base.time.less">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\themes-source\base.time.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\themes-source\classic.date.less">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\themes-source\classic.date.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\themes-source\classic.less">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\themes-source\classic.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\themes-source\classic.time.less">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\themes-source\classic.time.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\themes-source\default.date.less">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\themes-source\default.date.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\themes-source\default.less">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\themes-source\default.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\themes-source\default.time.less">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\themes-source\default.time.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\themes-source\rtl.less">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\themes-source\rtl.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\lib\themes-source\_variables.less">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\lib\themes-source\_variables.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\tests\dev\date.htm">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\tests\dev\date.htm</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\tests\dev\time.htm">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\tests\dev\time.htm</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\scripts\pickadate.js-3.5.5\tests\units\all.htm">
+      <PackagePath>www\scripts\pickadate.js-3.5.5\tests\units\all.htm</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\www\ShareAMoment.sln">
       <PackagePath>www\ShareAMoment.sln</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Corentin\Source\Repos\h-ckXForm\BlankCordovaApp1\bld\Debug\platforms\windows\config.xml">
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\config.xml">
       <PackagePath>config.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Corentin\Source\Repos\h-ckXForm\BlankCordovaApp1\bld\Debug\platforms\windows\build\phone\debug\anycpu\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Sébastien\Source\Repos\h-ckXForm3\BlankCordovaApp1\bld\Debug\platforms\windows\build\phone\debug\anycpu\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
