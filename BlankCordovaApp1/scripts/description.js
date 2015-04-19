@@ -30,7 +30,8 @@ var service;
 var marker;
 
 
-$(document).ready(function() {
+$(document).ready(function () {
+    google.maps.event.addDomListener(window, 'load', initialize);
     alert("tg");
     $.ajax({
         type: "GET",
@@ -45,15 +46,6 @@ $(document).ready(function() {
         Success = true;
     })
 });
-
-
-
-
-
-
- 
-
-
 
 
 $(".btnMenu").click(function () {

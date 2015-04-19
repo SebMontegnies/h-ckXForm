@@ -5,9 +5,9 @@ $(document).ready(function () {
 
     var data;
 
-    var mailUser = window.localStorage.getItem("mailUser");
+    //var mailUser = window.localStorage.getItem("mailUser");
 
-    var $email = window.localStorage.getItem("mailUser");
+    var $email = "codu@codu.be";//.localStorage.getItem("mailUser");
 
     var $jsonFormat = {
         Email: $email,
@@ -15,30 +15,39 @@ $(document).ready(function () {
 
     var allCategories = new Array();
     var idCategories = new Array();
+    var images = new Array();
     var index = 0;
     var isFinished = false;
+
+    images.push("images/game.png");
+    images.push("images/drink.png");
+    images.push("images/run.png");
+    images.push("images/cofee.png");
+    images.push("images/movie.png");
+
 
     $.getJSON("http://shareamoment.azurewebsites.net/api/Categories", function (data) {
 
         var jsonData = JSON.parse(data);
-        var ul = document.getElementById("activityInfosList");
+        //var ul = document.getElementById("activityInfosList");
 
         $.each(jsonData, function (idx, obj) {
 
             allCategories.push(obj.Name);
             idCategories.push(obj.CategoryId);
+
         });
 
 
-        var li = document.createElement("li");
-        li.appendChild(document.createTextNode(allCategories[index]));
-        li.setAttribute("id", allCategories[index]);
-        ul.appendChild(li);
+        //var li = document.createElement("li");
+        //li.appendChild(document.createTextNode(allCategories[index]));
+        //li.setAttribute("id", allCategories[index]);
+        //ul.appendChild(li);
     });
 
     $("#buttonYes").click(function () {
 
-        var $email = window.localStorage.getItem("mailUser");
+        var $email = "codu@codu.be";//window.localStorage.getItem("mailUser");
         var $activityID = idCategories[index];
 
         if (isFinished) {
@@ -47,7 +56,7 @@ $(document).ready(function () {
         }
 
         if (index == allCategories.length-2) {
-            document.getElementById("buttonYes").innerHTML = "Accueil";
+            //document.getElementById("buttonYes").innerHTML = "Accueil";
             isFinished = true;           
         }
 
@@ -70,15 +79,18 @@ $(document).ready(function () {
 
 
 
-        var li = document.getElementById(allCategories[index]);
+       // var li = document.getElementById(allCategories[index]);
         if (index < allCategories.length-1)
         {
-            index = index + 1;
+            index = index + 1;            
         }
-        
-        
-        li.innerHTML = allCategories[index];
-        li.setAttribute("id", allCategories[index]);
+        //$("#myimg").attr("src", "/myimg.jpg?" + d.getTime());
+        $(".icon").empty();
+        $(".icon").append("<image src='" + images[index] + "' id='background_icon' alt=''");
+        //var d = new Date();
+        //$("#background_icon").attr("src", images[index]+""+ d.getTime());
+        //li.innerHTML = allCategories[index];
+        //li.setAttribute("id", allCategories[index]);
     });
 
     $("#buttonNo").click(function () {
@@ -91,15 +103,15 @@ $(document).ready(function () {
         }
 
         if (index == allCategories.length - 2) {
-            document.getElementById("buttonNo").innerHTML = "Accueil";
+            //document.getElementById("buttonNo").innerHTML = "Accueil";
             isFinished = true;
         }
-        var li = document.getElementById(allCategories[index]);
+       // var li = document.getElementById(allCategories[index]);
         if (index < allCategories.length - 1) {
             index = index + 1;
         }
-        li.innerHTML = allCategories[index];
-        li.setAttribute("id", allCategories[index]);
+        //li.innerHTML = allCategories[index];
+        //li.setAttribute("id", allCategories[index]);
     });
 
 
@@ -130,3 +142,4 @@ $(document).ready(function () {
     
 
 });
+

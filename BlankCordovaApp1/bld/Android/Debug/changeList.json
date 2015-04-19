@@ -1,18 +1,14 @@
 {
   "changedFilesIos": [
     "Description_Event.html",
-    "config.xml",
     "scripts\\description.js"
   ],
-  "deletedFilesIos": [
-    "add - Copy.html",
-    "scripts\\add - Copy.js",
-    "scripts\\descrpition.js",
-    "scripts\\descrption.js"
-  ],
+  "deletedFilesIos": [],
   "addedPluginsIos": [],
   "deletedPluginsIos": [],
-  "changedFiles": [],
+  "changedFiles": [
+    "scripts\\description.js"
+  ],
   "deletedFiles": [],
   "addedPlugins": [],
   "deletedPlugins": []

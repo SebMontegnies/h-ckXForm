@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>BlankCordovaApp1</title>
+
+    <!-- BlankCordovaApp1 references -->
+    <link href="css/main.css" rel="stylesheet" />
+    <link href="css/index.css" rel="stylesheet" />
+    
+    <link href="scripts/pickadate.js-3.5.5/lib/themes/classic.css" rel="stylesheet" />
+    <link href="scripts/pickadate.js-3.5.5/lib/themes/classic.date.css" rel="stylesheet" />
+    <link href="scripts/pickadate.js-3.5.5/lib/themes/classic.time.css" rel="stylesheet" />
+    <link href="scripts/pickadate.js-3.5.5/lib/themes/default.css" rel="stylesheet" />
+    <link href="scripts/pickadate.js-3.5.5/lib/themes/default.time.css" rel="stylesheet" />
+    <link href="scripts/pickadate.js-3.5.5/lib/themes/default.date.css" rel="stylesheet" />
+
+</head>
+<body>
+    <div class="main">
+        <nav class="main_nav">
+            <img class="burger_nav" src="images/burger.png" alt="" id="burgerMenuButton" onclick="toggleBurgerMenu()">
+            <span class=" title_nav">You like bros</span>
+            <ul class="nav_ul" id="burgerMenu">
+                <li><a href="#" class="btnMenu" id="btnMenuParametre">Parametre</a></li>
+                <li><a href="#" class="btnMenu" id="btnMenuProfil">Proposer une activité</a></li>
+                <li><a href="#" class="btnMenu" id="btnMenuAccueil">Accueil</a></li>
+            </ul>
+        </nav>
+        <header class="add_header">
+            <img src="images/etienne.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dignissim, ligula id mollis ultricies, tortor lectus dictum ligula, ut vulputate felis diam ut dui. Sed ac molestie lorem.</p>
+        </header>
+        <form class="add_form" action="">
+            <select name="" id="selectListCategory">
+            </select>
+
+            <label for="">Titre</label>
+            <input type="text" placeholder="Titre" id="titleEvent">
+
+            <label for="">Date</label>
+            <input type="text" placeholder="Date" class="datepicker"> 
+
+            <label for="">Heure de début</label>
+            <input type="text" placeholder="Heure de début" class="timepicker" />
+
+            <label for="">Lieu</label>
+            <input type="text" placeholder="Lieu" >
+            <label for="">Description</label>
+            <textarea name="Description" id="descriptionEvent" cols="30" rows="10"></textarea>
+
+           <input type="button" value="Localiser" id="fadeInLocalise">
+            <div id="divLocalise" >
+                YO!
+           </div>
+
+            <input type="button" id="addEventButton" value="Ajouter">
+        </form>
+    </div>
+
+    <!-- Cordova reference, this is added to your app when it's built. -->
+    <script src="cordova.js"></script>
+    <script src="scripts/platformOverrides.js"></script>
+
+    
+    <script src="scripts/Jquery/jquery-1.11.2.min.js"></script>
+    <script src="scripts/Jquery/jquery-ui-1.11.4/jquery-ui.min.js"></script>
+    
+    <script src="scripts/add.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script type="text/javascript"
+            src="https://maps.googleapis.com/maps/api/js?libraries=places&sensor=true">
+    </script>
+
+    <script src="scripts/pickadate.js-3.5.5/lib/picker.js"></script>
+    <script src="scripts/pickadate.js-3.5.5/lib/picker.date.js"></script>
+    <script src="scripts/pickadate.js-3.5.5/lib/picker.time.js"></script>
+    <script src="scripts/pickadate.js-3.5.5/lib/legacy.js"></script>
+
+</body>
+</html>
