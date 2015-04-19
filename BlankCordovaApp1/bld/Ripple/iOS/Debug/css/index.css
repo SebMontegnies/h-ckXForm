@@ -410,3 +410,7 @@ input[type="range"]:after {
 .desc-heure{
 	float: right;
 }
+
+#category{
+    z-index:1000;
+}

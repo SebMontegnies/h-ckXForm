@@ -30,9 +30,15 @@ var $lat, $long;
 var $listEventFromServer;
 
 $(document).ready(function () {
-
+    
     refreshEvent();
+    $('.act').click(function () {
 
+        var idEvent = $(this).attr("id");
+        window.localStorage.setItem("idEvent", idEvent);
+        document.location.href = "Description_Event.html";
+
+    });
     var $email = window.localStorage.getItem("mailUser");
 
     $(".btnMenu").click(function () {
@@ -66,8 +72,8 @@ function addAndRemoveEvent() {
 
     $infoToMainPage = {
         Email: window.localStorage.getItem("mailUser"),
-        Latitude: "50,46",
-        Longitude: "3,93"
+        Latitude: "50.46",
+        Longitude: "3.93"
     }
 
 
@@ -109,7 +115,7 @@ function addAndRemoveEvent() {
         $beginDate = $day+ "/" + $month + " " + $hour + ":" + $min;
 
 
-        $event = '<section class="act" id="$(this).EventId">' +
+        $event = '<section class="act" id="'+$(this).attr("EventId")+'">' +
         '<img class="act_img" src="images/' + $image + '.png" alt="">' +
         '<div class="act_content">' +
             '<h2>' + $title + '</h2>' +
@@ -120,6 +126,8 @@ function addAndRemoveEvent() {
     '</section>'
 
         $("#eventDiv").append($event)
+
+        
 
     })
 

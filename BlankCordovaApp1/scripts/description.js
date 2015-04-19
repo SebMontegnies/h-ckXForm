@@ -37,10 +37,10 @@ $(document).ready(function () {
     //google.maps.event.addDomListener(window, 'load', initialise);
     
 
-     //= window.localStorage.getItem("mailUser");
+    
    
 
-    var $activityID = "866593f6-fbc0-4830-a9da-0ae8e8b97a75";
+    var $activityID = window.localStorage.getItem("idEvent");
 
     var $jsonFormat = {
         Guid: $activityID,

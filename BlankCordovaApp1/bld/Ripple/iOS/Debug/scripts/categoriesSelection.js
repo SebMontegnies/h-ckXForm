@@ -23,6 +23,8 @@ $(document).ready(function () {
     images.push("/images/Boireunverre.png");
     images.push("/images/Cinema.png");
 
+    $("#category").html(allCategories[index] + "");
+
     $.getJSON("http://shareamoment.azurewebsites.net/api/Categories", function (data) {
 
         var jsonData = JSON.parse(data);
@@ -39,6 +41,8 @@ $(document).ready(function () {
     $("#buttonYes").click(function () {
 
         var $activityID = idCategories[index];
+
+        
 
         if (isFinished) {
             window.localStorage.setItem("mailUser", $email);
@@ -70,11 +74,11 @@ $(document).ready(function () {
         }
 
         
-
+        $("#category").text(allCategories[index]+" ");
     });
 
     $("#buttonNo").click(function () {
-
+        
         var $activityID = idCategories[index];
 
         if (isFinished) {
@@ -89,7 +93,10 @@ $(document).ready(function () {
         if (index == allCategories.length -1) {
             isFinished = true;
         }
-        
+        $("#category").append(allCategories[index] + "");
     });
 });
 
+function changeLi() {
+
+}
