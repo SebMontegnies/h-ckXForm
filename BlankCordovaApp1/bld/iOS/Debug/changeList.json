@@ -1,0 +1,15 @@
+{
+  "changedFilesIos": [
+    "scripts\\mainPage.js",
+    "scripts\\description.js"
+  ],
+  "deletedFilesIos": [],
+  "addedPluginsIos": [],
+  "deletedPluginsIos": [],
+  "changedFiles": [
+    "scripts\\mainPage.js"
+  ],
+  "deletedFiles": [],
+  "addedPlugins": [],
+  "deletedPlugins": []
+}

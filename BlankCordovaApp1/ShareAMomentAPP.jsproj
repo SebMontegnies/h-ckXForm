@@ -1,0 +1,907 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Android">
+      <Configuration>Debug</Configuration>
+      <Platform>Android</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|iOS">
+      <Configuration>Debug</Configuration>
+      <Platform>iOS</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Windows-AnyCPU">
+      <Configuration>Debug</Configuration>
+      <Platform>Windows-AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Windows-x64">
+      <Configuration>Debug</Configuration>
+      <Platform>Windows-x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Windows-x86">
+      <Configuration>Debug</Configuration>
+      <Platform>Windows-x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Windows-ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>Windows-ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Windows Phone 8">
+      <Configuration>Debug</Configuration>
+      <Platform>Windows Phone 8</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Windows Phone (Universal)">
+      <Configuration>Debug</Configuration>
+      <Platform>Windows Phone (Universal)</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Android">
+      <Configuration>Release</Configuration>
+      <Platform>Android</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|iOS">
+      <Configuration>Release</Configuration>
+      <Platform>iOS</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Windows-AnyCPU">
+      <Configuration>Release</Configuration>
+      <Platform>Windows-AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Windows-x64">
+      <Configuration>Release</Configuration>
+      <Platform>Windows-x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Windows-x86">
+      <Configuration>Release</Configuration>
+      <Platform>Windows-x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Windows-ARM">
+      <Configuration>Release</Configuration>
+      <Platform>Windows-ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Windows Phone 8">
+      <Configuration>Release</Configuration>
+      <Platform>Windows Phone 8</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Windows Phone (Universal)">
+      <Configuration>Release</Configuration>
+      <Platform>Windows Phone (Universal)</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Distribution|Android">
+      <Configuration>Distribution</Configuration>
+      <Platform>Android</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Distribution|iOS">
+      <Configuration>Distribution</Configuration>
+      <Platform>iOS</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Distribution|Windows-AnyCPU">
+      <Configuration>Distribution</Configuration>
+      <Platform>Windows-AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Distribution|Windows-x64">
+      <Configuration>Distribution</Configuration>
+      <Platform>Windows-x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Distribution|Windows-x86">
+      <Configuration>Distribution</Configuration>
+      <Platform>Windows-x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Distribution|Windows-ARM">
+      <Configuration>Distribution</Configuration>
+      <Platform>Windows-ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Distribution|Windows Phone 8">
+      <Configuration>Distribution</Configuration>
+      <Platform>Windows Phone 8</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Distribution|Windows Phone (Universal)">
+      <Configuration>Distribution</Configuration>
+      <Platform>Windows Phone (Universal)</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>856f1f1b-11ac-4840-b8de-569fb7bb15e4</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup>
+    <DefaultReferenceGroup>Implicit (Multi-Device Apps)</DefaultReferenceGroup>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup Condition="'$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0'">
+    <VisualStudioVersion>12.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="activite.html" />
+    <Content Include="add.html" />
+    <Content Include="bin\Windows Phone %28Universal%29\Debug\AppxManifest.xml" />
+    <Content Include="bin\Windows Phone %28Universal%29\Debug\CordovaApp.Phone.build.appxrecipe" />
+    <Content Include="bin\Windows Phone %28Universal%29\Debug\CordovaApp.Phone_1.0.0.0_Bundle\CordovaApp.Phone_1.0.0.0_anycpu_debug.appx" />
+    <Content Include="bin\Windows Phone %28Universal%29\Debug\CordovaApp.Phone_1.0.0.0_Bundle\CordovaApp.Phone_1.0.0.0_scale-100.appx" />
+    <Content Include="bin\Windows Phone %28Universal%29\Debug\ForBundle\AppxManifest.xml" />
+    <Content Include="bin\Windows Phone %28Universal%29\Debug\resources.pri" />
+    <Content Include="bin\Windows Phone 8\Debug\ApplicationIcon.png" />
+    <Content Include="bin\Windows Phone 8\Debug\AppManifest.xaml" />
+    <Content Include="bin\Windows Phone 8\Debug\Background.png" />
+    <Content Include="bin\Windows Phone 8\Debug\CordovaAppProj_Debug_AnyCPU.xap" />
+    <Content Include="bin\Windows Phone 8\Debug\io.cordova.BlankCordovaApp1.dll" />
+    <Content Include="bin\Windows Phone 8\Debug\io.cordova.BlankCordovaApp1.pdb" />
+    <Content Include="bin\Windows Phone 8\Debug\Properties\WMAppManifest.xml" />
+    <Content Include="BlankCordovaApp1.v12.suo" />
+    <Content Include="bld\Debug\config.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="bld\Debug\hooks\README.md" />
+    <Content Include="bld\Debug\platforms\android\.gitignore" />
+    <Content Include="bld\Debug\platforms\android\.project" />
+    <Content Include="bld\Debug\platforms\android\AndroidManifest.xml" />
+    <Content Include="bld\Debug\platforms\android\assets\www\cordova.js" />
+    <Content Include="bld\Debug\platforms\android\assets\www\cordova_plugins.js" />
+    <Content Include="bld\Debug\platforms\android\assets\_where-is-www.txt" />
+    <Content Include="bld\Debug\platforms\android\build.gradle" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\.project" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\AndroidManifest.xml" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\build.gradle" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\project.properties" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\com\squareup\okhttp\Address.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\com\squareup\okhttp\Connection.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\com\squareup\okhttp\ConnectionPool.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\com\squareup\okhttp\Dispatcher.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\com\squareup\okhttp\Failure.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\com\squareup\okhttp\HttpResponseCache.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\AbstractOutputStream.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\Base64.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\DiskLruCache.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\Dns.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\FaultRecoveringOutputStream.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\http\AbstractHttpInputStream.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\http\HeaderParser.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\http\HttpAuthenticator.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\http\HttpDate.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\http\HttpEngine.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\http\HttpsEngine.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\http\HttpsURLConnectionImpl.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\http\HttpTransport.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\http\HttpURLConnectionImpl.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\http\OkResponseCacheAdapter.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\http\Policy.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\http\RawHeaders.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\http\RequestHeaders.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\http\ResponseHeaders.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\http\RetryableOutputStream.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\http\RouteSelector.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\http\SpdyTransport.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\http\Transport.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\http\UnknownLengthHttpInputStream.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\NamedRunnable.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\Platform.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\spdy\ErrorCode.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\spdy\FrameReader.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\spdy\FrameWriter.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\spdy\HeadersMode.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\spdy\Hpack.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\spdy\Http20Draft06.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\spdy\IncomingStreamHandler.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\spdy\NameValueBlockReader.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\spdy\Ping.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\spdy\Settings.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\spdy\Spdy3.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\spdy\SpdyConnection.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\spdy\SpdyStream.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\spdy\Variant.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\StrictLineReader.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\tls\DistinguishedNameParser.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\tls\OkHostnameVerifier.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\Util.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\com\squareup\okhttp\Job.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\com\squareup\okhttp\MediaType.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\com\squareup\okhttp\OkAuthenticator.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\com\squareup\okhttp\OkHttpClient.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\com\squareup\okhttp\OkResponseCache.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\com\squareup\okhttp\Request.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\com\squareup\okhttp\Response.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\com\squareup\okhttp\ResponseSource.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\com\squareup\okhttp\Route.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\com\squareup\okhttp\RouteDatabase.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\com\squareup\okhttp\TunnelRequest.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\org\apache\cordova\App.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\org\apache\cordova\AuthenticationToken.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\org\apache\cordova\CallbackContext.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\org\apache\cordova\Config.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\org\apache\cordova\ConfigXmlParser.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\org\apache\cordova\CordovaActivity.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\org\apache\cordova\CordovaArgs.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\org\apache\cordova\CordovaBridge.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\org\apache\cordova\CordovaChromeClient.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\org\apache\cordova\CordovaInterface.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\org\apache\cordova\CordovaPlugin.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\org\apache\cordova\CordovaPreferences.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\org\apache\cordova\CordovaResourceApi.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\org\apache\cordova\CordovaUriHelper.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\org\apache\cordova\CordovaWebView.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\org\apache\cordova\CordovaWebViewClient.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\org\apache\cordova\DirectoryManager.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\org\apache\cordova\DroidGap.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\org\apache\cordova\ExifHelper.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\org\apache\cordova\ExposedJsApi.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\org\apache\cordova\FileHelper.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\org\apache\cordova\IceCreamCordovaWebViewClient.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\org\apache\cordova\JSONUtils.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\org\apache\cordova\LinearLayoutSoftKeyboardDetect.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\org\apache\cordova\LOG.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\org\apache\cordova\NativeToJsMessageQueue.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\org\apache\cordova\PluginEntry.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\org\apache\cordova\PluginManager.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\org\apache\cordova\PluginResult.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\org\apache\cordova\ScrollEvent.java" />
+    <Content Include="bld\Debug\platforms\android\CordovaLib\src\org\apache\cordova\Whitelist.java" />
+    <Content Include="bld\Debug\platforms\android\cordova\android_sdk_version" />
+    <Content Include="bld\Debug\platforms\android\cordova\build" />
+    <Content Include="bld\Debug\platforms\android\cordova\build.bat" />
+    <Content Include="bld\Debug\platforms\android\cordova\check_reqs" />
+    <Content Include="bld\Debug\platforms\android\cordova\clean" />
+    <Content Include="bld\Debug\platforms\android\cordova\clean.bat" />
+    <Content Include="bld\Debug\platforms\android\cordova\defaults.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="bld\Debug\platforms\android\cordova\lib\android_sdk_version.js" />
+    <Content Include="bld\Debug\platforms\android\cordova\lib\appinfo.js" />
+    <Content Include="bld\Debug\platforms\android\cordova\lib\build.js" />
+    <Content Include="bld\Debug\platforms\android\cordova\lib\check_reqs.js" />
+    <Content Include="bld\Debug\platforms\android\cordova\lib\device.js" />
+    <Content Include="bld\Debug\platforms\android\cordova\lib\emulator.js" />
+    <Content Include="bld\Debug\platforms\android\cordova\lib\exec.js" />
+    <Content Include="bld\Debug\platforms\android\cordova\lib\install-device" />
+    <Content Include="bld\Debug\platforms\android\cordova\lib\install-device.bat" />
+    <Content Include="bld\Debug\platforms\android\cordova\lib\install-emulator" />
+    <Content Include="bld\Debug\platforms\android\cordova\lib\install-emulator.bat" />
+    <Content Include="bld\Debug\platforms\android\cordova\lib\list-devices" />
+    <Content Include="bld\Debug\platforms\android\cordova\lib\list-devices.bat" />
+    <Content Include="bld\Debug\platforms\android\cordova\lib\list-emulator-images" />
+    <Content Include="bld\Debug\platforms\android\cordova\lib\list-emulator-images.bat" />
+    <Content Include="bld\Debug\platforms\android\cordova\lib\list-started-emulators" />
+    <Content Include="bld\Debug\platforms\android\cordova\lib\list-started-emulators.bat" />
+    <Content Include="bld\Debug\platforms\android\cordova\lib\log.js" />
+    <Content Include="bld\Debug\platforms\android\cordova\lib\run.js" />
+    <Content Include="bld\Debug\platforms\android\cordova\lib\spawn.js" />
+    <Content Include="bld\Debug\platforms\android\cordova\lib\start-emulator" />
+    <Content Include="bld\Debug\platforms\android\cordova\lib\start-emulator.bat" />
+    <Content Include="bld\Debug\platforms\android\cordova\log" />
+    <Content Include="bld\Debug\platforms\android\cordova\log.bat" />
+    <Content Include="bld\Debug\platforms\android\cordova\node_modules\q\benchmark\compare-with-callbacks.js" />
+    <Content Include="bld\Debug\platforms\android\cordova\node_modules\q\benchmark\scenarios.js" />
+    <Content Include="bld\Debug\platforms\android\cordova\node_modules\q\CONTRIBUTING.md" />
+    <Content Include="bld\Debug\platforms\android\cordova\node_modules\q\LICENSE" />
+    <Content Include="bld\Debug\platforms\android\cordova\node_modules\q\package.json" />
+    <Content Include="bld\Debug\platforms\android\cordova\node_modules\q\q.js" />
+    <Content Include="bld\Debug\platforms\android\cordova\node_modules\q\queue.js" />
+    <Content Include="bld\Debug\platforms\android\cordova\node_modules\q\README.md" />
+    <Content Include="bld\Debug\platforms\android\cordova\node_modules\shelljs\.documentup.json" />
+    <Content Include="bld\Debug\platforms\android\cordova\node_modules\shelljs\.jshintrc" />
+    <Content Include="bld\Debug\platforms\android\cordova\node_modules\shelljs\.npmignore" />
+    <Content Include="bld\Debug\platforms\android\cordova\node_modules\shelljs\.travis.yml" />
+    <Content Include="bld\Debug\platforms\android\cordova\node_modules\shelljs\bin\shjs" />
+    <Content Include="bld\Debug\platforms\android\cordova\node_modules\shelljs\global.js" />
+    <Content Include="bld\Debug\platforms\android\cordova\node_modules\shelljs\LICENSE" />
+    <Content Include="bld\Debug\platforms\android\cordova\node_modules\shelljs\make.js" />
+    <Content Include="bld\Debug\platforms\android\cordova\node_modules\shelljs\package.json" />
+    <Content Include="bld\Debug\platforms\android\cordova\node_modules\shelljs\README.md" />
+    <Content Include="bld\Debug\platforms\android\cordova\node_modules\shelljs\scripts\generate-docs.js" />
+    <Content Include="bld\Debug\platforms\android\cordova\node_modules\shelljs\scripts\run-tests.js" />
+    <Content Include="bld\Debug\platforms\android\cordova\node_modules\shelljs\shell.js" />
+    <Content Include="bld\Debug\platforms\android\cordova\node_modules\shelljs\src\cat.js" />
+    <Content Include="bld\Debug\platforms\android\cordova\node_modules\shelljs\src\cd.js" />
+    <Content Include="bld\Debug\platforms\android\cordova\node_modules\shelljs\src\chmod.js" />
+    <Content Include="bld\Debug\platforms\android\cordova\node_modules\shelljs\src\common.js" />
+    <Content Include="bld\Debug\platforms\android\cordova\node_modules\shelljs\src\cp.js" />
+    <Content Include="bld\Debug\platforms\android\cordova\node_modules\shelljs\src\dirs.js" />
+    <Content Include="bld\Debug\platforms\android\cordova\node_modules\shelljs\src\echo.js" />
+    <Content Include="bld\Debug\platforms\android\cordova\node_modules\shelljs\src\error.js" />
+    <Content Include="bld\Debug\platforms\android\cordova\node_modules\shelljs\src\exec.js" />
+    <Content Include="bld\Debug\platforms\android\cordova\node_modules\shelljs\src\find.js" />
+    <Content Include="bld\Debug\platforms\android\cordova\node_modules\shelljs\src\grep.js" />
+    <Content Include="bld\Debug\platforms\android\cordova\node_modules\shelljs\src\ls.js" />
+    <Content Include="bld\Debug\platforms\android\cordova\node_modules\shelljs\src\mkdir.js" />
+    <Content Include="bld\Debug\platforms\android\cordova\node_modules\shelljs\src\mv.js" />
+    <Content Include="bld\Debug\platforms\android\cordova\node_modules\shelljs\src\popd.js" />
+    <Content Include="bld\Debug\platforms\android\cordova\node_modules\shelljs\src\pushd.js" />
+    <Content Include="bld\Debug\platforms\android\cordova\node_modules\shelljs\src\pwd.js" />
+    <Content Include="bld\Debug\platforms\android\cordova\node_modules\shelljs\src\rm.js" />
+    <Content Include="bld\Debug\platforms\android\cordova\node_modules\shelljs\src\sed.js" />
+    <Content Include="bld\Debug\platforms\android\cordova\node_modules\shelljs\src\tempdir.js" />
+    <Content Include="bld\Debug\platforms\android\cordova\node_modules\shelljs\src\test.js" />
+    <Content Include="bld\Debug\platforms\android\cordova\node_modules\shelljs\src\to.js" />
+    <Content Include="bld\Debug\platforms\android\cordova\node_modules\shelljs\src\toEnd.js" />
+    <Content Include="bld\Debug\platforms\android\cordova\node_modules\shelljs\src\which.js" />
+    <Content Include="bld\Debug\platforms\android\cordova\node_modules\which\bin\which" />
+    <Content Include="bld\Debug\platforms\android\cordova\node_modules\which\LICENSE" />
+    <Content Include="bld\Debug\platforms\android\cordova\node_modules\which\package.json" />
+    <Content Include="bld\Debug\platforms\android\cordova\node_modules\which\README.md" />
+    <Content Include="bld\Debug\platforms\android\cordova\node_modules\which\which.js" />
+    <Content Include="bld\Debug\platforms\android\cordova\run" />
+    <Content Include="bld\Debug\platforms\android\cordova\run.bat" />
+    <Content Include="bld\Debug\platforms\android\cordova\version" />
+    <Content Include="bld\Debug\platforms\android\cordova\version.bat" />
+    <Content Include="bld\Debug\platforms\android\custom_rules.xml" />
+    <Content Include="bld\Debug\platforms\android\platform_www\cordova.js" />
+    <Content Include="bld\Debug\platforms\android\project.properties" />
+    <Content Include="bld\Debug\platforms\android\res\drawable-hdpi\icon.png" />
+    <Content Include="bld\Debug\platforms\android\res\drawable-land-hdpi\screen.png" />
+    <Content Include="bld\Debug\platforms\android\res\drawable-land-ldpi\screen.png" />
+    <Content Include="bld\Debug\platforms\android\res\drawable-land-mdpi\screen.png" />
+    <Content Include="bld\Debug\platforms\android\res\drawable-land-xhdpi\screen.png" />
+    <Content Include="bld\Debug\platforms\android\res\drawable-ldpi\icon.png" />
+    <Content Include="bld\Debug\platforms\android\res\drawable-mdpi\icon.png" />
+    <Content Include="bld\Debug\platforms\android\res\drawable-port-hdpi\screen.png" />
+    <Content Include="bld\Debug\platforms\android\res\drawable-port-ldpi\screen.png" />
+    <Content Include="bld\Debug\platforms\android\res\drawable-port-mdpi\screen.png" />
+    <Content Include="bld\Debug\platforms\android\res\drawable-port-xhdpi\screen.png" />
+    <Content Include="bld\Debug\platforms\android\res\drawable-xhdpi\icon.png" />
+    <Content Include="bld\Debug\platforms\android\res\drawable\icon.png" />
+    <Content Include="bld\Debug\platforms\android\res\values\strings.xml" />
+    <Content Include="bld\Debug\platforms\android\res\xml\config.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="bld\Debug\platforms\android\settings.gradle" />
+    <Content Include="bld\Debug\platforms\android\src\io\cordova\BlankCordovaApp1\CordovaApp.java" />
+    <Content Include="bld\Debug\platforms\cli-version" />
+    <Content Include="bld\Debug\plugins\android.json" />
+    <Content Include="bld\Debug\www\css\index.css" />
+    <Content Include="bld\Debug\www\img\logo.png" />
+    <Content Include="bld\Debug\www\index.html" />
+    <Content Include="bld\Debug\www\js\index.js" />
+    <Content Include="bld\Ripple\iOS\Debug\activite.html" />
+    <Content Include="bld\Ripple\iOS\Debug\add.html" />
+    <Content Include="bld\Ripple\iOS\Debug\bin\Windows Phone %28Universal%29\Debug\AppxManifest.xml" />
+    <Content Include="bld\Ripple\iOS\Debug\bin\Windows Phone %28Universal%29\Debug\CordovaApp.Phone.build.appxrecipe" />
+    <Content Include="bld\Ripple\iOS\Debug\bin\Windows Phone %28Universal%29\Debug\CordovaApp.Phone_1.0.0.0_Bundle\CordovaApp.Phone_1.0.0.0_anycpu_debug.appx" />
+    <Content Include="bld\Ripple\iOS\Debug\bin\Windows Phone %28Universal%29\Debug\CordovaApp.Phone_1.0.0.0_Bundle\CordovaApp.Phone_1.0.0.0_scale-100.appx" />
+    <Content Include="bld\Ripple\iOS\Debug\bin\Windows Phone %28Universal%29\Debug\ForBundle\AppxManifest.xml" />
+    <Content Include="bld\Ripple\iOS\Debug\bin\Windows Phone %28Universal%29\Debug\resources.pri" />
+    <Content Include="bld\Ripple\iOS\Debug\bin\Windows Phone 8\Debug\ApplicationIcon.png" />
+    <Content Include="bld\Ripple\iOS\Debug\bin\Windows Phone 8\Debug\AppManifest.xaml" />
+    <Content Include="bld\Ripple\iOS\Debug\bin\Windows Phone 8\Debug\Background.png" />
+    <Content Include="bld\Ripple\iOS\Debug\bin\Windows Phone 8\Debug\CordovaAppProj_Debug_AnyCPU.xap" />
+    <Content Include="bld\Ripple\iOS\Debug\bin\Windows Phone 8\Debug\io.cordova.BlankCordovaApp1.dll" />
+    <Content Include="bld\Ripple\iOS\Debug\bin\Windows Phone 8\Debug\io.cordova.BlankCordovaApp1.pdb" />
+    <Content Include="bld\Ripple\iOS\Debug\bin\Windows Phone 8\Debug\Properties\WMAppManifest.xml" />
+    <Content Include="bld\Ripple\iOS\Debug\BlankCordovaApp1.v12.suo" />
+    <Content Include="bld\Ripple\iOS\Debug\choice.html" />
+    <Content Include="bld\Ripple\iOS\Debug\images\cofee.png" />
+    <Content Include="bld\Ripple\iOS\Debug\images\cross.png" />
+    <Content Include="bld\Ripple\iOS\Debug\images\drink.png" />
+    <Content Include="bld\Ripple\iOS\Debug\images\etienne.jpg" />
+    <Content Include="bld\Ripple\iOS\Debug\images\game.png" />
+    <Content Include="bld\Ripple\iOS\Debug\images\gameIcon.png" />
+    <Content Include="bld\Ripple\iOS\Debug\images\heart.png" />
+    <Content Include="bld\Ripple\iOS\Debug\images\line.png" />
+    <Content Include="bld\Ripple\iOS\Debug\images\load.png" />
+    <Content Include="bld\Ripple\iOS\Debug\images\map.png" />
+    <Content Include="bld\Ripple\iOS\Debug\images\movie.png" />
+    <Content Include="bld\Ripple\iOS\Debug\images\run.png" />
+    <Content Include="bld\Ripple\iOS\Debug\images\v.png" />
+    <Content Include="bld\Ripple\iOS\Debug\images\valid.png" />
+    <Content Include="bld\Ripple\iOS\Debug\mainPage.html" />
+    <Content Include="bld\Ripple\iOS\Debug\preference.html" />
+    <Content Include="bld\Ripple\iOS\Debug\Project_Readme.html" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\add.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\categoriesSelection.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\Jquery\jquery-1.11.2.min.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\Jquery\jquery-ui-1.11.4\external\jquery\jquery.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\Jquery\jquery-ui-1.11.4\images\ui-bg_diagonals-thick_18_b81900_40x40.png" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\Jquery\jquery-ui-1.11.4\images\ui-bg_diagonals-thick_20_666666_40x40.png" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\Jquery\jquery-ui-1.11.4\images\ui-bg_flat_10_000000_40x100.png" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\Jquery\jquery-ui-1.11.4\images\ui-bg_glass_100_f6f6f6_1x400.png" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\Jquery\jquery-ui-1.11.4\images\ui-bg_glass_100_fdf5ce_1x400.png" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\Jquery\jquery-ui-1.11.4\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\Jquery\jquery-ui-1.11.4\images\ui-bg_gloss-wave_35_f6a828_500x100.png" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\Jquery\jquery-ui-1.11.4\images\ui-bg_highlight-soft_100_eeeeee_1x100.png" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\Jquery\jquery-ui-1.11.4\images\ui-bg_highlight-soft_75_ffe45c_1x100.png" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\Jquery\jquery-ui-1.11.4\images\ui-icons_222222_256x240.png" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\Jquery\jquery-ui-1.11.4\images\ui-icons_228ef1_256x240.png" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\Jquery\jquery-ui-1.11.4\images\ui-icons_ef8c08_256x240.png" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\Jquery\jquery-ui-1.11.4\images\ui-icons_ffd27a_256x240.png" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\Jquery\jquery-ui-1.11.4\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\Jquery\jquery-ui-1.11.4\index.html" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\Jquery\jquery-ui-1.11.4\jquery-ui.css" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\Jquery\jquery-ui-1.11.4\jquery-ui.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\Jquery\jquery-ui-1.11.4\jquery-ui.min.css" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\Jquery\jquery-ui-1.11.4\jquery-ui.min.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\Jquery\jquery-ui-1.11.4\jquery-ui.structure.css" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\Jquery\jquery-ui-1.11.4\jquery-ui.structure.min.css" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\Jquery\jquery-ui-1.11.4\jquery-ui.theme.css" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\Jquery\jquery-ui-1.11.4\jquery-ui.theme.min.css" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\mainPage.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\.gitignore" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\.jshintrc" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\.travis.yml" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\bower.json" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\CHANGELOG.md" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\CONTRIBUTING.md" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\Gruntfile.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\compressed\legacy.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\compressed\picker.date.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\compressed\picker.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\compressed\picker.time.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\compressed\themes\classic.css" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\compressed\themes\classic.date.css" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\compressed\themes\classic.time.css" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\compressed\themes\default.css" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\compressed\themes\default.date.css" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\compressed\themes\default.time.css" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\compressed\themes\rtl.css" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\compressed\translations\ar.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\compressed\translations\bg_BG.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\compressed\translations\bs_BA.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\compressed\translations\ca_ES.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\compressed\translations\cs_CZ.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\compressed\translations\da_DK.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\compressed\translations\de_DE.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\compressed\translations\el_GR.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\compressed\translations\es_ES.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\compressed\translations\et_EE.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\compressed\translations\eu_ES.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\compressed\translations\fi_FI.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\compressed\translations\fr_FR.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\compressed\translations\gl_ES.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\compressed\translations\he_IL.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\compressed\translations\hi_IN.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\compressed\translations\hr_HR.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\compressed\translations\hu_HU.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\compressed\translations\id_ID.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\compressed\translations\is_IS.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\compressed\translations\it_IT.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\compressed\translations\ja_JP.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\compressed\translations\ko_KR.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\compressed\translations\lt_LT.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\compressed\translations\lv_LV.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\compressed\translations\nb_NO.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\compressed\translations\ne_NP.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\compressed\translations\nl_NL.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\compressed\translations\no_NO.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\compressed\translations\pl_PL.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\compressed\translations\pt_BR.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\compressed\translations\pt_PT.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\compressed\translations\ro_RO.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\compressed\translations\ru_RU.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\compressed\translations\sk_SK.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\compressed\translations\sl_SI.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\compressed\translations\sv_SE.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\compressed\translations\th_TH.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\compressed\translations\tr_TR.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\compressed\translations\uk_UA.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\compressed\translations\vi_VN.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\compressed\translations\zh_CN.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\compressed\translations\zh_TW.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\legacy.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\picker.date.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\picker.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\picker.time.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\themes-source\base.date.less" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\themes-source\base.less" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\themes-source\base.time.less" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\themes-source\classic.date.less" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\themes-source\classic.less" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\themes-source\classic.time.less" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\themes-source\default.date.less" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\themes-source\default.less" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\themes-source\default.time.less" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\themes-source\rtl.less" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\themes-source\_variables.less" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\themes\classic.css" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\themes\classic.date.css" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\themes\classic.time.css" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\themes\default.css" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\themes\default.date.css" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\themes\default.time.css" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\themes\rtl.css" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\translations\ar.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\translations\bg_BG.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\translations\bs_BA.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\translations\ca_ES.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\translations\cs_CZ.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\translations\da_DK.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\translations\de_DE.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\translations\el_GR.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\translations\es_ES.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\translations\et_EE.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\translations\eu_ES.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\translations\fi_FI.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\translations\FORMATTING.md" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\translations\fr_FR.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\translations\gl_ES.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\translations\he_IL.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\translations\hi_IN.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\translations\hr_HR.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\translations\hu_HU.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\translations\id_ID.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\translations\is_IS.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\translations\it_IT.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\translations\ja_JP.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\translations\ko_KR.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\translations\lt_LT.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\translations\lv_LV.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\translations\NAMING.md" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\translations\nb_NO.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\translations\ne_NP.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\translations\nl_NL.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\translations\pl_PL.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\translations\pt_BR.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\translations\pt_PT.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\translations\ro_RO.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\translations\ru_RU.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\translations\sk_SK.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\translations\sl_SI.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\translations\sv_SE.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\translations\th_TH.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\translations\tr_TR.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\translations\uk_UA.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\translations\vi_VN.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\translations\zh_CN.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\lib\translations\zh_TW.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\LICENSE.md" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\package.json" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\README.md" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\tests\dev\date.htm" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\tests\dev\time.htm" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\tests\jquery.1.7.0.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\tests\jquery.1.9.1.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\tests\jquery.2.0.0.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\tests\qunit.css" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\tests\qunit.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\tests\units\all.htm" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\tests\units\base.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\tests\units\date.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\pickadate.js-3.5.5\tests\units\time.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\platformOverrides.js" />
+    <Content Include="bld\Ripple\iOS\Debug\scripts\userSettings.js" />
+    <Content Include="categoriesSelection.html" />
+    <Content Include="choice.html" />
+    <Content Include="config.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="css\index.css" />
+    <Content Include="desc.html" />
+    <Content Include="Description_Event.html" />
+    <Content Include="images\cofee.png" />
+    <Content Include="images\cross.png" />
+    <Content Include="images\drink.png" />
+    <Content Include="images\etienne.jpg" />
+    <Content Include="images\game.png" />
+    <Content Include="images\gameIcon.png" />
+    <Content Include="images\header.jpg" />
+    <Content Include="images\heart.png" />
+    <Content Include="images\line.png" />
+    <Content Include="images\load.png" />
+    <Content Include="images\map.png" />
+    <Content Include="images\movie.png" />
+    <Content Include="images\run.png" />
+    <Content Include="images\v" />
+    <Content Include="images\v.png" />
+    <Content Include="images\valid.png" />
+    <Content Include="mainPage.html" />
+    <Content Include="merges\android\scripts\android2.3-jscompat.js" />
+    <Content Include="merges\android\scripts\platformOverrides.js" />
+    <Content Include="preference.html" />
+    <Content Include="Project_Readme.html" />
+    <Content Include="scripts\add.js" />
+    <Content Include="scripts\categoriesSelection.js" />
+    <Content Include="scripts\description.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\.gitignore" />
+    <Content Include="scripts\pickadate.js-3.5.5\.jshintrc" />
+    <Content Include="scripts\pickadate.js-3.5.5\.travis.yml" />
+    <Content Include="scripts\pickadate.js-3.5.5\bower.json" />
+    <Content Include="scripts\pickadate.js-3.5.5\CHANGELOG.md" />
+    <Content Include="scripts\pickadate.js-3.5.5\CONTRIBUTING.md" />
+    <Content Include="scripts\pickadate.js-3.5.5\Gruntfile.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\compressed\legacy.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\compressed\picker.date.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\compressed\picker.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\compressed\picker.time.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\compressed\themes\classic.css" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\compressed\themes\classic.date.css" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\compressed\themes\classic.time.css" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\compressed\themes\default.css" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\compressed\themes\default.date.css" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\compressed\themes\default.time.css" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\compressed\themes\rtl.css" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\compressed\translations\ar.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\compressed\translations\bg_BG.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\compressed\translations\bs_BA.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\compressed\translations\ca_ES.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\compressed\translations\cs_CZ.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\compressed\translations\da_DK.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\compressed\translations\de_DE.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\compressed\translations\el_GR.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\compressed\translations\es_ES.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\compressed\translations\et_EE.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\compressed\translations\eu_ES.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\compressed\translations\fi_FI.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\compressed\translations\fr_FR.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\compressed\translations\gl_ES.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\compressed\translations\he_IL.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\compressed\translations\hi_IN.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\compressed\translations\hr_HR.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\compressed\translations\hu_HU.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\compressed\translations\id_ID.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\compressed\translations\is_IS.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\compressed\translations\it_IT.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\compressed\translations\ja_JP.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\compressed\translations\ko_KR.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\compressed\translations\lt_LT.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\compressed\translations\lv_LV.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\compressed\translations\nb_NO.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\compressed\translations\ne_NP.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\compressed\translations\nl_NL.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\compressed\translations\no_NO.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\compressed\translations\pl_PL.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\compressed\translations\pt_BR.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\compressed\translations\pt_PT.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\compressed\translations\ro_RO.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\compressed\translations\ru_RU.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\compressed\translations\sk_SK.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\compressed\translations\sl_SI.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\compressed\translations\sv_SE.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\compressed\translations\th_TH.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\compressed\translations\tr_TR.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\compressed\translations\uk_UA.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\compressed\translations\vi_VN.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\compressed\translations\zh_CN.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\compressed\translations\zh_TW.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\legacy.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\picker.date.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\picker.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\picker.time.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\themes-source\base.date.less" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\themes-source\base.less" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\themes-source\base.time.less" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\themes-source\classic.date.less" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\themes-source\classic.less" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\themes-source\classic.time.less" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\themes-source\default.date.less" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\themes-source\default.less" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\themes-source\default.time.less" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\themes-source\rtl.less" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\themes-source\_variables.less" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\themes\classic.css" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\themes\classic.date.css" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\themes\classic.time.css" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\themes\default.css" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\themes\default.date.css" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\themes\default.time.css" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\themes\rtl.css" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\translations\ar.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\translations\bg_BG.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\translations\bs_BA.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\translations\ca_ES.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\translations\cs_CZ.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\translations\da_DK.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\translations\de_DE.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\translations\el_GR.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\translations\es_ES.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\translations\et_EE.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\translations\eu_ES.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\translations\fi_FI.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\translations\FORMATTING.md" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\translations\fr_FR.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\translations\gl_ES.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\translations\he_IL.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\translations\hi_IN.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\translations\hr_HR.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\translations\hu_HU.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\translations\id_ID.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\translations\is_IS.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\translations\it_IT.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\translations\ja_JP.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\translations\ko_KR.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\translations\lt_LT.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\translations\lv_LV.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\translations\NAMING.md" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\translations\nb_NO.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\translations\ne_NP.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\translations\nl_NL.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\translations\pl_PL.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\translations\pt_BR.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\translations\pt_PT.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\translations\ro_RO.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\translations\ru_RU.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\translations\sk_SK.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\translations\sl_SI.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\translations\sv_SE.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\translations\th_TH.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\translations\tr_TR.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\translations\uk_UA.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\translations\vi_VN.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\translations\zh_CN.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\lib\translations\zh_TW.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\LICENSE.md" />
+    <Content Include="scripts\pickadate.js-3.5.5\package.json" />
+    <Content Include="scripts\pickadate.js-3.5.5\README.md" />
+    <Content Include="scripts\pickadate.js-3.5.5\tests\dev\date.htm" />
+    <Content Include="scripts\pickadate.js-3.5.5\tests\dev\time.htm" />
+    <Content Include="scripts\pickadate.js-3.5.5\tests\jquery.1.7.0.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\tests\jquery.1.9.1.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\tests\jquery.2.0.0.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\tests\qunit.css" />
+    <Content Include="scripts\pickadate.js-3.5.5\tests\qunit.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\tests\units\all.htm" />
+    <Content Include="scripts\pickadate.js-3.5.5\tests\units\base.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\tests\units\date.js" />
+    <Content Include="scripts\pickadate.js-3.5.5\tests\units\time.js" />
+    <Content Include="scripts\userSettings.js" />
+    <Content Include="ShareAMoment.sln" />
+    <Content Include="ShareAMoment.v12.suo" />
+    <Content Include="userSettings.html" />
+    <Folder Include="bin\Android\" />
+    <Folder Include="bin\iOS\Debug\" />
+    <Folder Include="bld\Android\" />
+    <Folder Include="bld\Debug\merges\" />
+    <Folder Include="bld\Debug\platforms\android\libs\" />
+    <Folder Include="bld\Distribution\" />
+    <Folder Include="bld\iOS\Debug\" />
+    <Folder Include="bld\Release\" />
+    <Folder Include="bld\Ripple\Android\" />
+    <Folder Include="bld\Ripple\iOS\Debug\platforms\" />
+    <Folder Include="bld\Ripple\Windows Phone %28Universal%29\Debug\css\" />
+    <Folder Include="bld\Ripple\Windows Phone %28Universal%29\Debug\images\" />
+    <Folder Include="bld\Ripple\Windows Phone %28Universal%29\Debug\scripts\Jquery\jquery-ui-1.11.4\external\jquery\" />
+    <Folder Include="bld\Ripple\Windows Phone %28Universal%29\Debug\scripts\Jquery\jquery-ui-1.11.4\images\" />
+    <Folder Include="bld\Ripple\Windows Phone 8\Debug\css\" />
+    <Folder Include="bld\Ripple\Windows Phone 8\Debug\scripts\" />
+    <Folder Include="bld\Windows Phone %28Universal%29\Debug\" />
+    <Folder Include="bld\Windows Phone %28Universal%29\Distribution\" />
+    <Folder Include="bld\Windows Phone %28Universal%29\Release\" />
+    <Folder Include="bld\Windows Phone 8\Debug\" />
+    <Folder Include="bld\Windows Phone 8\Distribution\" />
+    <Folder Include="bld\Windows Phone 8\Release\" />
+    <Folder Include="bld\Windows-AnyCPU\Debug\" />
+    <Folder Include="bld\Windows-AnyCPU\Distribution\" />
+    <Folder Include="bld\Windows-AnyCPU\Release\" />
+    <Folder Include="bld\Windows-ARM\Debug\" />
+    <Folder Include="bld\Windows-ARM\Distribution\" />
+    <Folder Include="bld\Windows-ARM\Release\" />
+    <Folder Include="bld\Windows-x64\Debug\" />
+    <Folder Include="bld\Windows-x64\Distribution\" />
+    <Folder Include="bld\Windows-x64\Release\" />
+    <Folder Include="bld\Windows-x86\Debug\" />
+    <Folder Include="bld\Windows-x86\Distribution\" />
+    <Folder Include="bld\Windows-x86\Release\" />
+    <Folder Include="merges\ios\" />
+    <Content Include="merges\windows\scripts\platformOverrides.js" />
+    <Content Include="merges\windows\scripts\winstore-jscompat.js" />
+    <Folder Include="merges\wp8\" />
+    <Folder Include="res\icons\android\" />
+    <Folder Include="res\icons\ios\" />
+    <Folder Include="res\icons\wp8\" />
+    <Folder Include="res\icons\windows\" />
+    <Folder Include="res\screens\android\" />
+    <Folder Include="res\screens\ios\" />
+    <Folder Include="res\screens\windows\" />
+    <Folder Include="res\screens\wp8\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="login.html" />
+    <Content Include="scripts\mainPage.js" />
+    <Content Include="scripts\login.js" />
+    <Content Include="scripts\Jquery\jquery-1.11.2.min.js" />
+    <Content Include="scripts\Jquery\jquery-ui-1.11.4\external\jquery\jquery.js" />
+    <Content Include="scripts\Jquery\jquery-ui-1.11.4\images\ui-bg_diagonals-thick_18_b81900_40x40.png" />
+    <Content Include="scripts\Jquery\jquery-ui-1.11.4\images\ui-bg_diagonals-thick_20_666666_40x40.png" />
+    <Content Include="scripts\Jquery\jquery-ui-1.11.4\images\ui-bg_flat_10_000000_40x100.png" />
+    <Content Include="scripts\Jquery\jquery-ui-1.11.4\images\ui-bg_glass_100_f6f6f6_1x400.png" />
+    <Content Include="scripts\Jquery\jquery-ui-1.11.4\images\ui-bg_glass_100_fdf5ce_1x400.png" />
+    <Content Include="scripts\Jquery\jquery-ui-1.11.4\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="scripts\Jquery\jquery-ui-1.11.4\images\ui-bg_gloss-wave_35_f6a828_500x100.png" />
+    <Content Include="scripts\Jquery\jquery-ui-1.11.4\images\ui-bg_highlight-soft_100_eeeeee_1x100.png" />
+    <Content Include="scripts\Jquery\jquery-ui-1.11.4\images\ui-bg_highlight-soft_75_ffe45c_1x100.png" />
+    <Content Include="scripts\Jquery\jquery-ui-1.11.4\images\ui-icons_222222_256x240.png" />
+    <Content Include="scripts\Jquery\jquery-ui-1.11.4\images\ui-icons_228ef1_256x240.png" />
+    <Content Include="scripts\Jquery\jquery-ui-1.11.4\images\ui-icons_ef8c08_256x240.png" />
+    <Content Include="scripts\Jquery\jquery-ui-1.11.4\images\ui-icons_ffd27a_256x240.png" />
+    <Content Include="scripts\Jquery\jquery-ui-1.11.4\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="scripts\Jquery\jquery-ui-1.11.4\index.html" />
+    <Content Include="scripts\Jquery\jquery-ui-1.11.4\jquery-ui.css" />
+    <Content Include="scripts\Jquery\jquery-ui-1.11.4\jquery-ui.js" />
+    <Content Include="scripts\Jquery\jquery-ui-1.11.4\jquery-ui.min.css" />
+    <Content Include="scripts\Jquery\jquery-ui-1.11.4\jquery-ui.min.js" />
+    <Content Include="scripts\Jquery\jquery-ui-1.11.4\jquery-ui.structure.css" />
+    <Content Include="scripts\Jquery\jquery-ui-1.11.4\jquery-ui.structure.min.css" />
+    <Content Include="scripts\Jquery\jquery-ui-1.11.4\jquery-ui.theme.css" />
+    <Content Include="scripts\Jquery\jquery-ui-1.11.4\jquery-ui.theme.min.css" />
+    <Content Include="scripts\platformOverrides.js" />
+    <Content Include="css\main.css" />
+    <Content Include="res\icons\android\icon-36-ldpi.png" />
+    <Content Include="res\icons\android\icon-48-mdpi.png" />
+    <Content Include="res\icons\android\icon-72-hdpi.png" />
+    <Content Include="res\icons\android\icon-96-xhdpi.png" />
+    <Content Include="res\icons\ios\icon-40.png" />
+    <Content Include="res\icons\ios\icon-40-2x.png" />
+    <Content Include="res\icons\ios\icon-50.png" />
+    <Content Include="res\icons\ios\icon-50-2x.png" />
+    <Content Include="res\icons\ios\icon-57.png" />
+    <Content Include="res\icons\ios\icon-57-2x.png" />
+    <Content Include="res\icons\ios\icon-60.png" />
+    <Content Include="res\icons\ios\icon-60-2x.png" />
+    <Content Include="res\icons\ios\icon-60-3x.png" />
+    <Content Include="res\icons\ios\icon-72.png" />
+    <Content Include="res\icons\ios\icon-72-2x.png" />
+    <Content Include="res\icons\ios\icon-76.png" />
+    <Content Include="res\icons\ios\icon-76-2x.png" />
+    <Content Include="res\icons\ios\icon-small.png" />
+    <Content Include="res\icons\ios\icon-small-2x.png" />
+    <Content Include="res\icons\windows\Square150x150Logo.scale-100.png" />
+    <Content Include="res\icons\windows\Square30x30Logo.scale-100.png" />
+    <Content Include="res\icons\windows\Square310x310Logo.scale-100.png" />
+    <Content Include="res\icons\windows\Square150x150Logo.scale-240.png" />
+    <Content Include="res\icons\windows\Square44x44Logo.scale-240.png" />
+    <Content Include="res\icons\windows\Square70x70Logo.scale-100.png" />
+    <Content Include="res\icons\windows\Square71x71Logo.scale-240.png" />
+    <Content Include="res\icons\windows\StoreLogo.scale-100.png" />
+    <Content Include="res\icons\windows\StoreLogo.scale-240.png" />
+    <Content Include="res\icons\windows\Wide310x150Logo.scale-100.png" />
+    <Content Include="res\icons\windows\Wide310x150Logo.scale-240.png" />
+    <Content Include="res\icons\wp8\ApplicationIcon.png" />
+    <Content Include="res\icons\wp8\Background.png" />
+    <Content Include="res\native\android\ant.properties" />
+    <Content Include="res\screens\android\screen-hdpi-landscape.png" />
+    <Content Include="res\screens\android\screen-hdpi-portrait.png" />
+    <Content Include="res\screens\android\screen-ldpi-landscape.png" />
+    <Content Include="res\screens\android\screen-ldpi-portrait.png" />
+    <Content Include="res\screens\android\screen-mdpi-landscape.png" />
+    <Content Include="res\screens\android\screen-mdpi-portrait.png" />
+    <Content Include="res\screens\android\screen-xhdpi-landscape.png" />
+    <Content Include="res\screens\android\screen-xhdpi-portrait.png" />
+    <Content Include="res\screens\ios\screen-ipad-landscape.png" />
+    <Content Include="res\screens\ios\screen-ipad-landscape-2x.png" />
+    <Content Include="res\screens\ios\screen-ipad-portrait.png" />
+    <Content Include="res\screens\ios\screen-ipad-portrait-2x.png" />
+    <Content Include="res\screens\ios\screen-iphone-568h-2x.png" />
+    <Content Include="res\screens\ios\screen-iphone-landscape-736h.png" />
+    <Content Include="res\screens\ios\screen-iphone-portrait.png" />
+    <Content Include="res\screens\ios\screen-iphone-portrait-2x.png" />
+    <Content Include="res\screens\ios\screen-iphone-portrait-667h.png" />
+    <Content Include="res\screens\ios\screen-iphone-portrait-736h.png" />
+    <Content Include="res\screens\windows\SplashScreen.scale-100.png" />
+    <Content Include="res\screens\windows\SplashScreen.scale-240.png" />
+    <Content Include="res\screens\windows\SplashScreenPhone.scale-240.png" />
+    <Content Include="res\screens\wp8\SplashScreenImage.jpg" />
+  </ItemGroup>
+  <PropertyGroup>
+    <TypeScriptToolsVersion>1.0</TypeScriptToolsVersion>
+    <DefaultReferenceGroup>Implicit (Multi-Device Apps)</DefaultReferenceGroup>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
+    <TypeScriptCompileOnSaveEnabled>false</TypeScriptCompileOnSaveEnabled>
+    <TypeScriptRemoveComments>false</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>true</TypeScriptSourceMap>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <TypeScriptCompileOnSaveEnabled>false</TypeScriptCompileOnSaveEnabled>
+    <TypeScriptRemoveComments>true</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>false</TypeScriptSourceMap>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Distribution'">
+    <TypeScriptCompileOnSaveEnabled>false</TypeScriptCompileOnSaveEnabled>
+    <TypeScriptRemoveComments>true</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>false</TypeScriptSourceMap>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\CordovaTools\vs-mda-targets\Microsoft.MDA.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\CordovaTools\vs-mda-targets\Microsoft.TypeScript.MDA.targets" />
+  <PropertyGroup>
+    <ProjectUISubcaption>Tools for Apache Cordova</ProjectUISubcaption>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetPlatformIdentifier>MDD</TargetPlatformIdentifier>
+  </PropertyGroup>
+  <Target Name="EnsureBuildPrerequisites">
+    <!-- These errors will trigger if building from inside Visual Studio and requirements could not be determined -->
+    <Error Condition="$(MDAPropertiesEvaluated) == 'true' And $(NodeJsDir) == ''" Text="Path to NodeJs could not be determined. Please check that NodeJs has been installed." />
+    <Error Condition="$(MDAPropertiesEvaluated) == 'true' And $(MDAVsixDir) == ''" Text="Path to the Visual Studio Extension for Tools for Apache Cordova could not be determined. Please check that the extension has been installed." />
+    <!-- These errors will trigger if building from outside Visual Studio (e.g. command line) and environment variables have not been set -->
+    <Error Condition="$(MDAPropertiesEvaluated) == '' And $(NodeJsDir) == ''" Text="Path to NodeJs has not been specified. Please check that NodeJs has been installed and set the NodeJsDir environment variable before building." />
+    <Error Condition="$(MDAPropertiesEvaluated) == '' And $(MDAVsixDir) == ''" Text="Path to Visual Studio Extension for Tools for Apache Cordova has not been specified. Please install it and set the MDAVsixDir environment variable before building." />
+    <!-- Sanity check that things exist in the specified places. These are more likely to fail if building outside Visual Studio and the required environment variables have not been set, or set incorrectly. -->
+    <Error Condition="!Exists('$(NodeJsDir)') Or !Exists('$(NodeJsDir)\node.exe')" Text="The specified NodeJs directory $(NodeJsDir) either does not exist, or does not contain node.exe. Please check that NodeJs has been installed, and set the NodeJsDir variable to the correct directory." />
+    <Error Condition="!Exists('$(MDAVsixDir)') Or !Exists('$(MDAVsixDir)\packages\vs-mda')" Text="The specified directory to the Visual Studio extension $(MDAVsixDir)\node.exe either does not exist, or does not contain a packages\vs-mda sub-directory. Please check that the extension directory exists and set the MDAVsixDir variable to the correct directory." />
+    <!-- Installs (if necessary) the supporting Nodejs module -->
+    <Exec Command="&quot;$(MDAVsixDir)&quot;\packages\vs-mda\install &quot;$(NodeJsDir)&quot; &quot;$(MDAVsixDir)&quot;\packages\vs-mda" />
+  </Target>
+</Project>

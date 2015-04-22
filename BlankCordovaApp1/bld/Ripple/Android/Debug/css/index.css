@@ -403,6 +403,7 @@ input[type="range"]:after {
 	margin-top: 80px;
 	height: 200px;
 	background:#DDDDDD;
+    overflow:hidden;
 }
 .desc_content{
 	padding: 24px;
